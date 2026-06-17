@@ -2,17 +2,17 @@ backend:
   name: github
   repo: jleenman/keukendesign
   branch: main
-  site_domain: www.keukendesign.nl
+  site_domain: jleenman.github.io
   auth_scope: repo
 
 local_backend: true
 
-site_url: https://www.keukendesign.nl
-display_url: https://www.keukendesign.nl
-logo_url: /favicon.ico
+site_url: https://jleenman.github.io/keukendesign
+display_url: https://jleenman.github.io/keukendesign
+logo_url: /keukendesign/favicon.ico
 
 media_folder: public/uploads
-public_folder: /uploads
+public_folder: /keukendesign/uploads
 
 publish_mode: editorial_workflow
 

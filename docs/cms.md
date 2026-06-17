@@ -17,7 +17,7 @@ backend:
   name: github
   repo: jleenman/keukendesign
   branch: main
-  site_domain: www.keukendesign.nl
+  site_domain: jleenman.github.io
   auth_scope: repo
 ```
 
@@ -65,10 +65,10 @@ public/uploads
 In Markdown worden ze gerefereerd als:
 
 ```text
-/uploads/bestand.jpg
+/keukendesign/uploads/bestand.jpg
 ```
 
-Dit sluit aan op het canonical domein `https://www.keukendesign.nl`. De GitHub Pages subpad-URL `https://jleenman.github.io/keukendesign/` is alleen nog een technische fallback; de productiebuild is gericht op het custom domain.
+Dit sluit aan op de huidige productie-URL `https://jleenman.github.io/keukendesign/`. Als later het custom domain `www.keukendesign.nl` actief wordt in GitHub Pages, kan `public_folder` naar `/uploads`.
 
 Dit werkt met de bestaande statische build, omdat alles onder `public/` direct wordt meegekopieerd naar de gegenereerde site.
 
@@ -85,12 +85,12 @@ Bij deploy naar static hosting worden `/admin`, `/uploads` en de rest van `publi
 Voor GitHub Pages bouwt `.github/workflows/deploy.yml` met:
 
 ```yaml
-NUXT_APP_BASE_URL: /
+NUXT_APP_BASE_URL: /keukendesign/
 ```
 
-Daardoor verwijzen Nuxt-assets, fonts, publieke afbeeldingen en `/admin/` naar root-paden op `www.keukendesign.nl`.
+Daardoor verwijzen Nuxt-assets, fonts, publieke afbeeldingen en de footerlink naar de juiste submap op `jleenman.github.io/keukendesign`.
 
-Let op: bij GitHub Pages met een custom Actions workflow is `public/CNAME` niet genoeg. GitHub negeert dat bestand voor de Pages-instelling; het custom domain moet ook in de repository-instellingen onder Pages staan. Voor deze site hoort daar `www.keukendesign.nl` te staan. De DNS moet `www.keukendesign.nl` als CNAME naar `jleenman.github.io` laten wijzen; zolang het domein nog naar de oude WordPress/Apache-host wijst, opent `/admin/` daar de WordPress-admin in plaats van Decap CMS.
+Let op: `/admin/` hoort in deze fase te worden geopend via `https://jleenman.github.io/keukendesign/admin/`. De root-URL `https://jleenman.github.io/admin/` hoort niet bij deze repositorysite.
 
 ## Lokale CMS-test
 
