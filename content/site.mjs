@@ -56,7 +56,7 @@ export const site = {
       title: 'Juridisch',
       links: [
         { label: 'Privacy', to: '/privacy/' },
-        { label: 'Admin', href: '/admin/' }
+        { label: 'Admin', href: 'https://jleenman.github.io/keukendesign/admin/' }
       ]
     }
   ]
