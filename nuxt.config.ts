@@ -1,4 +1,13 @@
+import { pages as contentPages } from './content/generated/pages.mjs'
+import { projects } from './content/generated/projects.mjs'
+
 const baseURL = process.env.NUXT_APP_BASE_URL || '/'
+
+const pageRoutes = Object.values(contentPages)
+  .map((page: any) => page.route)
+  .filter((route: unknown): route is string => typeof route === 'string' && route.startsWith('/'))
+
+const projectRoutes = projects.map((project: any) => `/projecten/${project.slug}/`)
 
 export default defineNuxtConfig({
   ssr: true,
@@ -32,7 +41,9 @@ export default defineNuxtConfig({
         '/privacy/',
         '/projecten/',
         '/showroom/',
-        '/showroom/route-en-parkeren/'
+        '/showroom/route-en-parkeren/',
+        ...pageRoutes,
+        ...projectRoutes
       ]
     }
   },

@@ -1,5 +1,4 @@
-import { existsSync, readFileSync } from 'node:fs'
-import { basename } from 'node:path'
+import { existsSync } from 'node:fs'
 
 const requiredFiles = [
   'package.json',
@@ -67,19 +66,20 @@ for (const project of projects) {
   }
 }
 
-const realizedMarkdown = readFileSync('source/gerealiseerd/index.md', 'utf8')
-const realizedImageMatches = [...realizedMarkdown.matchAll(/\]\(\.\.\/media\/([^)]+)\)/g)]
-const sourceProjectImages = [...new Set(realizedImageMatches
-  .map((match) => match[1])
-  .filter((image) => !image.includes('-250x154.')))]
+const projectSlugs = new Set()
 
-const usedProjectImages = new Set(projects.flatMap((project) => project.gallery || []).map((image) => basename(image)))
-const missingSourceImages = sourceProjectImages.filter((image) => !usedProjectImages.has(image))
+for (const project of projects) {
+  if (projectSlugs.has(project.slug)) {
+    console.error(`Duplicate project slug: ${project.slug}`)
+    process.exit(1)
+  }
 
-if (missingSourceImages.length) {
-  console.error(`Missing ${missingSourceImages.length} source project images in galleries:`)
-  console.error(missingSourceImages.join('\n'))
-  process.exit(1)
+  projectSlugs.add(project.slug)
+
+  if (!project.gallery?.length) {
+    console.error(`Project ${project.slug} has no gallery images`)
+    process.exit(1)
+  }
 }
 
 console.log('Content audit passed')

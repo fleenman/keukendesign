@@ -1,10 +1,12 @@
 <script setup>
+import { pages } from '~/content/pages.mjs'
 import { site } from '~/content/site.mjs'
-useSeoMeta({ title: 'Contact | Stadshaege Keukendesign', description: 'Maak een showroomafspraak, bel of mail Stadshaege Keukendesign in Amersfoort.' })
+const page = pages.contact
+useSeoMeta({ title: page.seoTitle, description: page.description })
 </script>
 
 <template>
-  <ContentSection :breadcrumbs="[{ label: 'Home', to: '/' }, { label: 'Contact' }]" title="Maak een persoonlijke showroomafspraak" text="We nemen graag de tijd voor uw keukenplan. Bel, mail of gebruik de route naar de showroom.">
+  <ContentSection :breadcrumbs="[{ label: 'Home', to: '/' }, { label: 'Contact' }]" :title="page.title" :text="page.intro">
     <div class="grid-2">
       <div class="panel">
         <h3>{{ site.contact.name }}</h3>

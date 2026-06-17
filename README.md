@@ -19,13 +19,14 @@ npm run preview:static
 - Nuxt static generation.
 - Output voor GitHub Pages: `.output/public`.
 - Geen backend, server runtime, database, productie-SSR of eigen formulierendpoint.
-- Contentdata staat in `content/`.
+- Contentdata staat als Markdown in `content/site.md`, `content/pages/*.md` en `content/projects/*.md`.
+- `npm run generate:content` genereert de Nuxt-modules onder `content/generated/`.
 - Geselecteerde media staat in `public/media/`.
 - Het merkfont `RotiSemiSans` staat in `public/fonts/` en is verplicht voor herkenbare bulthaup/Stadshaege-typografie.
 
 ## Content
 
-Projectcases staan in `content/projects.mjs`. Gebruik alleen gegevens die uit de bestaande broncontent, bestandsnamen of documentatie te onderbouwen zijn. Verzin geen klant-, locatie-, budget- of projectdetails.
+Projectcases staan in `content/projects/*.md`. Gebruik alleen gegevens die uit de huidige content, bestandsnamen of documentatie te onderbouwen zijn. Verzin geen klant-, locatie-, budget- of projectdetails.
 
 ## Deployment
 

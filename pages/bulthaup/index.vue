@@ -1,16 +1,19 @@
 <script setup>
+import { pages } from '~/content/pages.mjs'
 import { projects } from '~/content/projects.mjs'
 
+const page = pages.bulthaup
+
 useSeoMeta({
-  title: 'Bulthaup keukens | Stadshaege Keukendesign',
-  description: 'Vergelijk bulthaup b1, b2 en b3 en ervaar materialen en systemen in de showroom in Amersfoort.'
+  title: page.seoTitle,
+  description: page.description
 })
 
 const sampleProjects = projects.filter((project) => project.system === 'b3').slice(0, 3)
 </script>
 
 <template>
-  <ContentSection :breadcrumbs="[{ label: 'Home', to: '/' }, { label: 'Bulthaup' }]" title="Bulthaup-keukens op maat" text="Stadshaege werkt met bulthaup-systemen omdat ze rust, precisie, materiaalkeuze en persoonlijk maatwerk ondersteunen.">
+  <ContentSection :breadcrumbs="[{ label: 'Home', to: '/' }, { label: 'Bulthaup' }]" :title="page.title" :text="page.intro">
     <div class="grid">
       <NuxtLink class="panel" to="/bulthaup/b1/"><h3>b1</h3><p>Helder, eenvoudig en functioneel.</p></NuxtLink>
       <NuxtLink class="panel" to="/bulthaup/b2/"><h3>b2</h3><p>Losser, functioneel en gericht op werken in de keuken.</p></NuxtLink>

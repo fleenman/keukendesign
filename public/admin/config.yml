@@ -12,43 +12,126 @@ display_url: https://jleenman.github.io/keukendesign
 logo_url: /keukendesign/favicon.ico
 
 media_folder: public/uploads
-public_folder: /keukendesign/uploads
+public_folder: /uploads
 
 publish_mode: editorial_workflow
 
 collections:
+  - name: site
+    label: Site instellingen
+    files:
+      - name: site
+        label: Sitebreed
+        file: content/site.md
+        fields:
+          - label: Naam
+            name: name
+            widget: string
+          - label: Canonical URL
+            name: canonicalUrl
+            widget: string
+          - label: Beschrijving
+            name: description
+            widget: text
+          - label: Contact
+            name: contact
+            widget: object
+            fields:
+              - { label: Naam, name: name, widget: string }
+              - { label: Straat, name: streetAddress, widget: string }
+              - { label: Postcode, name: postalCode, widget: string }
+              - { label: Plaats, name: city, widget: string }
+              - { label: Telefoon, name: phone, widget: string }
+              - { label: Mobiel, name: mobile, widget: string }
+              - { label: E-mail, name: email, widget: string }
+              - { label: Route URL, name: routeUrl, widget: string }
+          - label: Navigatie
+            name: navigation
+            widget: list
+            fields:
+              - { label: Label, name: label, widget: string }
+              - { label: Route, name: to, widget: string }
+          - label: Footer groepen
+            name: footerGroups
+            widget: list
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - label: Links
+                name: links
+                widget: list
+                fields:
+                  - { label: Label, name: label, widget: string }
+                  - { label: Route, name: to, widget: string, required: false }
+                  - { label: Externe URL, name: href, widget: string, required: false }
+
   - name: pages
-    label: Pagina's
-    label_singular: Pagina
-    folder: source
+    label: Website pagina's
+    label_singular: Website pagina
+    folder: content/pages
     create: true
     extension: md
     format: frontmatter
     slug: "{{slug}}"
-    path: "{{slug}}/index"
-    nested:
-      depth: 100
-      summary: "{{dirname}}/{{filename}}"
     summary: "{{title}}"
     sortable_fields:
       - title
-      - modified
-      - source_url
+      - route
     fields:
-      - label: Titel
-        name: title
-        widget: string
-      - label: Bron-URL
-        name: source_url
-        widget: string
+      - { label: Slug, name: slug, widget: string }
+      - { label: Route, name: route, widget: string }
+      - { label: Titel, name: title, widget: string }
+      - { label: SEO titel, name: seoTitle, widget: string }
+      - { label: SEO beschrijving, name: description, widget: text }
+      - { label: Intro, name: intro, widget: text, required: false }
+      - label: Hero
+        name: hero
+        widget: object
         required: false
-      - label: Gewijzigd
-        name: modified
-        widget: datetime
+        fields:
+          - { label: Eyebrow, name: eyebrow, widget: string, required: false }
+          - { label: Tekst, name: text, widget: text, required: false }
+          - { label: Afbeelding, name: image, widget: image, required: false }
+      - { label: Body, name: body, widget: markdown, required: false }
+
+  - name: projects
+    label: Projecten
+    label_singular: Project
+    folder: content/projects
+    create: true
+    extension: md
+    format: frontmatter
+    slug: "{{slug}}"
+    summary: "{{title}}"
+    sortable_fields:
+      - order
+      - title
+      - system
+      - layout
+    fields:
+      - { label: Volgorde, name: order, widget: number, value_type: int, required: false }
+      - { label: Titel, name: title, widget: string }
+      - { label: Slug, name: slug, widget: string }
+      - { label: Systeem, name: system, widget: select, options: [b1, b2, b3] }
+      - { label: Opstelling, name: layout, widget: string }
+      - label: Materialen
+        name: materials
+        widget: list
+        field: { label: Materiaal, name: material, widget: string }
+      - label: Apparatuur
+        name: appliances
+        widget: list
         required: false
-      - label: Inhoud
-        name: body
-        widget: markdown
+        field: { label: Apparatuur, name: appliance, widget: string }
+      - { label: Regio, name: region, widget: string }
+      - { label: Samenvatting, name: summary, widget: text }
+      - { label: Vraag, name: question, widget: text, required: false }
+      - { label: Uitdaging, name: challenge, widget: text, required: false }
+      - { label: Oplossing, name: solution, widget: text, required: false }
+      - label: Afbeeldingen
+        name: images
+        widget: list
+        field: { label: Afbeelding, name: image, widget: image }
+      - { label: Body, name: body, widget: markdown, required: false }
 
   - name: docs
     label: Documentatie

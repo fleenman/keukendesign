@@ -41,7 +41,8 @@ Waarom deze keuze:
 - Alle publieke pagina’s kunnen vooraf worden gegenereerd als statische HTML.
 - GitHub Pages past bij de vaste hostingkeuze en vereist geen server runtime.
 - Nuxt biedt Vue-componenten voor filters, accordions, zoekoverlay, micro-interacties en projectpresentatie.
-- Markdown sluit aan op de bestaande contentexport in `source/`.
+- Markdown is de bron voor de huidige Nuxt-website: `content/site.md`, `content/pages/*.md` en `content/projects/*.md`.
+- Een buildstap genereert lichte JavaScript-modules onder `content/generated/`, zodat Vue-componenten geen filesystem- of database-afhankelijkheid krijgen.
 - GitHub Actions kan build, validatie en publicatie reproduceerbaar uitvoeren.
 
 ## Vue

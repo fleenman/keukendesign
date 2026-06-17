@@ -1,11 +1,13 @@
 <script setup>
+import { pages } from '~/content/pages.mjs'
 import { projects } from '~/content/projects.mjs'
+const page = pages['keukens-amersfoort']
 const localProjects = projects.filter((project) => project.region.includes('Amersfoort')).slice(0, 3)
-useSeoMeta({ title: 'Keukens Amersfoort | Stadshaege Keukendesign', description: 'Bulthaup-keukens op maat vanuit de showroom van Stadshaege in Amersfoort.' })
+useSeoMeta({ title: page.seoTitle, description: page.description })
 </script>
 
 <template>
-  <ContentSection :breadcrumbs="[{ label: 'Home', to: '/' }, { label: 'Keukens Amersfoort' }]" title="Bulthaup-keukens op maat vanuit Amersfoort" text="Bekijk gerealiseerde keukens in en rond Amersfoort en plan een rustig showroomgesprek aan de Grote Haag.">
+  <ContentSection :breadcrumbs="[{ label: 'Home', to: '/' }, { label: 'Keukens Amersfoort' }]" :title="page.title" :text="page.intro">
     <ContactActions />
   </ContentSection>
   <ContentSection title="Projecten in en rond Amersfoort">

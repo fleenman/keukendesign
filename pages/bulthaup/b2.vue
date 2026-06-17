@@ -1,12 +1,14 @@
 <script setup>
+import { pages } from '~/content/pages.mjs'
 import { projects } from '~/content/projects.mjs'
+const page = pages['bulthaup-b2']
 const related = projects.filter((project) => project.system === 'b2')
 const heroProject = related[0]
-useSeoMeta({ title: 'Bulthaup b2 | Stadshaege Keukendesign', description: 'Bulthaup b2 als functionele keukenbenadering met werkbank- en kastprincipes.' })
+useSeoMeta({ title: page.seoTitle, description: page.description })
 </script>
 
 <template>
-  <ContentSection :breadcrumbs="[{ label: 'Home', to: '/' }, { label: 'Bulthaup', to: '/bulthaup/' }, { label: 'b2' }]" title="Functioneel, losser en zichtbaar bruikbaar" text="b2 maakt keukenfuncties expliciet: werken, opbergen, voorbereiden en koken krijgen een duidelijke plek.">
+  <ContentSection :breadcrumbs="[{ label: 'Home', to: '/' }, { label: 'Bulthaup', to: '/bulthaup/' }, { label: 'b2' }]" :title="page.title" :text="page.intro">
     <div class="media-copy system-detail-hero">
       <ResponsiveImage v-if="heroProject" :src="heroProject.cover" :alt="heroProject.title" loading="eager" />
       <div class="grid contact-detail-grid">

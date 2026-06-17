@@ -1,10 +1,12 @@
 <script setup>
+import { pages } from '~/content/pages.mjs'
 import { site } from '~/content/site.mjs'
-useSeoMeta({ title: 'Route en parkeren | Stadshaege Keukendesign', description: 'Route naar Stadshaege Keukendesign aan de Grote Haag 15 in Amersfoort.' })
+const page = pages['showroom-route-en-parkeren']
+useSeoMeta({ title: page.seoTitle, description: page.description })
 </script>
 
 <template>
-  <ContentSection :breadcrumbs="[{ label: 'Home', to: '/' }, { label: 'Showroom', to: '/showroom/' }, { label: 'Route en parkeren' }]" title="Route naar Grote Haag 15" text="Gebruik de routeknop voor navigatie naar de showroom. De praktische route-informatie blijft als tekst beschikbaar, ook zonder kaart.">
+  <ContentSection :breadcrumbs="[{ label: 'Home', to: '/' }, { label: 'Showroom', to: '/showroom/' }, { label: 'Route en parkeren' }]" :title="page.title" :text="page.intro">
     <div class="media-copy">
       <ResponsiveImage src="/media/showroom/stadshaege-1616x1077.jpg" alt="Stadshaege aan de Grote Haag in Amersfoort" />
       <div class="panel">

@@ -1,9 +1,11 @@
 <script setup>
-useSeoMeta({ title: 'Werkwijze | Stadshaege Keukendesign', description: 'De werkwijze van Stadshaege: gesprek, ontwerp, calculatie, inmeten, montage en nazorg.' })
+import { pages } from '~/content/pages.mjs'
+const page = pages['advies-werkwijze']
+useSeoMeta({ title: page.seoTitle, description: page.description })
 </script>
 
 <template>
-  <ContentSection :breadcrumbs="[{ label: 'Home', to: '/' }, { label: 'Advies', to: '/advies/' }, { label: 'Werkwijze' }]" title="Van oriëntatie tot realisatie" text="De werkwijze volgt de bron: eerst een persoonlijk showroomgesprek, daarna ontwerp, calculatie, inmeten, montage en gebruiksadvies.">
+  <ContentSection :breadcrumbs="[{ label: 'Home', to: '/' }, { label: 'Advies', to: '/advies/' }, { label: 'Werkwijze' }]" :title="page.title" :text="page.intro">
     <div class="grid">
       <div class="panel"><h3>1. Showroomgesprek</h3><p>U bespreekt wensen, ruimte, kookgedrag en eerste richting. In de showroom zijn systemen, kleuren, materialen en oplossingen direct te bekijken.</p></div>
       <div class="panel"><h3>2. Ontwerp</h3><p>De indeling wordt uitgewerkt in een ontwerp met 3D-tekening, zodat de ruimtelijke oplossing concreet wordt.</p></div>

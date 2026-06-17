@@ -1,9 +1,11 @@
 <script setup>
-useSeoMeta({ title: 'Afspraak voorbereiden | Stadshaege Keukendesign', description: 'Bereid uw showroomafspraak voor met plattegrond, foto’s, wensen en vragen over dagelijks gebruik.' })
+import { pages } from '~/content/pages.mjs'
+const page = pages['advies-afspraak-voorbereiden']
+useSeoMeta({ title: page.seoTitle, description: page.description })
 </script>
 
 <template>
-  <ContentSection :breadcrumbs="[{ label: 'Home', to: '/' }, { label: 'Advies', to: '/advies/' }, { label: 'Afspraak voorbereiden' }]" title="Neem uw ruimte en routines mee" text="Een afspraak hoeft niet perfect voorbereid te zijn. Een paar concrete aanknopingspunten helpen wel om sneller tot goede ontwerpkeuzes te komen.">
+  <ContentSection :breadcrumbs="[{ label: 'Home', to: '/' }, { label: 'Advies', to: '/advies/' }, { label: 'Afspraak voorbereiden' }]" :title="page.title" :text="page.intro">
     <div class="grid">
       <div class="panel"><h3>Neem mee</h3><ul class="feature-list"><li>Plattegrond of maten</li><li>Foto's van de ruimte</li><li>Wensenlijst of inspiratiebeelden</li><li>Apparatuurvoorkeuren</li></ul></div>
       <div class="panel"><h3>Denk alvast na over</h3><ul class="feature-list"><li>Boodschappen en voorraad</li><li>Ontbijt en dagelijks koken</li><li>Samen koken of juist alleen</li><li>Afval, spoelen en onderhoud</li></ul></div>

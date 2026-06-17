@@ -6,6 +6,10 @@ Deze site gebruikt Decap CMS als eenvoudige Git-based CMS-laag. De CMS-interface
 
 - `public/admin/index.html` laadt Decap CMS vanaf de Decap CDN.
 - `public/admin/config.yml` configureert de GitHub backend, collecties en uploads.
+- `content/site.md` bevat sitebrede instellingen zoals contact, navigatie en footerlinks.
+- `content/pages/*.md` bevat de huidige Nuxt-pagina's met route, SEO, titel, intro en hero-data.
+- `content/projects/*.md` bevat de projectcases die de projectpagina, filters en detailpagina's voeden.
+- `scripts/generate-content.mjs` genereert `content/generated/*.mjs` voor Nuxt.
 - `public/uploads/` is de uploadmap voor afbeeldingen en andere media uit de CMS.
 
 ## Backend
@@ -41,18 +45,26 @@ Alternatief kan later alsnog een eigen OAuth proxy voor Decap CMS/GitHub worden 
 
 ## Collecties
 
-De CMS-config volgt de bestaande Markdown-structuur:
+De CMS-config volgt de huidige Nuxt-contentstructuur:
 
-- `Pagina's`: alle Markdown-bestanden onder `source/`, inclusief geneste pagina's zoals `source/bulthaup/.../index.md`.
+- `Site instellingen`: `content/site.md` voor contactgegevens, navigatie en footer.
+- `Website pagina's`: Markdown-bestanden onder `content/pages/`.
+- `Projecten`: Markdown-bestanden onder `content/projects/`.
 - `Documentatie`: Markdown-bestanden onder `docs/`, inclusief geneste documentatie.
 
 Nieuwe pagina's worden aangemaakt als:
 
 ```text
-source/<slug>/index.md
+content/pages/<slug>.md
 ```
 
-Daarmee blijft de bestaande map-per-pagina structuur intact.
+Nieuwe projecten worden aangemaakt als:
+
+```text
+content/projects/<slug>.md
+```
+
+De oude WordPress-export onder `source/` is verwijderd. Decap toont dus geen oude WordPress-content meer.
 
 ## Afbeeldingen
 
@@ -65,10 +77,10 @@ public/uploads
 In Markdown worden ze gerefereerd als:
 
 ```text
-/keukendesign/uploads/bestand.jpg
+/uploads/bestand.jpg
 ```
 
-Dit sluit aan op de huidige productie-URL `https://jleenman.github.io/keukendesign/`. Als later het custom domain `www.keukendesign.nl` actief wordt in GitHub Pages, kan `public_folder` naar `/uploads`.
+Nuxt zet publieke assetpaden via `useAssetPath()` om naar de juiste base URL. Daardoor werkt `/uploads/bestand.jpg` lokaal en op `https://jleenman.github.io/keukendesign/`.
 
 Dit werkt met de bestaande statische build, omdat alles onder `public/` direct wordt meegekopieerd naar de gegenereerde site.
 
@@ -79,6 +91,14 @@ Decap CMS voegt alleen statische bestanden toe en introduceert geen database of 
 ```bash
 npm run build
 ```
+
+Tijdens `npm run build` draait eerst:
+
+```bash
+npm run generate:content
+```
+
+Die stap leest `content/site.md`, `content/pages/*.md` en `content/projects/*.md` en schrijft de gegenereerde modules in `content/generated/`. Vue-pagina's importeren daarna dezelfde contracten als voorheen via `content/site.mjs`, `content/pages.mjs` en `content/projects.mjs`.
 
 Bij deploy naar static hosting worden `/admin`, `/uploads` en de rest van `public/` automatisch meegenomen.
 

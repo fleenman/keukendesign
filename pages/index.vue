@@ -1,7 +1,9 @@
 <script setup>
+import { pages } from '~/content/pages.mjs'
 import { site } from '~/content/site.mjs'
 import { projects } from '~/content/projects.mjs'
 
+const page = pages.home
 const featuredProjects = projects.slice(0, 3)
 const systemCards = [
   {
@@ -34,11 +36,11 @@ const systemCards = [
 ]
 
 useSeoMeta({
-  title: 'Stadshaege Keukendesign | Bulthaup keukens in Amersfoort',
-  description: site.description,
+  title: page.seoTitle,
+  description: page.description,
   ogTitle: 'Stadshaege Keukendesign',
-  ogDescription: site.description,
-  ogImage: '/media/showroom/showroom-4-1616x1212.jpg'
+  ogDescription: page.description,
+  ogImage: page.hero.image
 })
 </script>
 
@@ -59,11 +61,11 @@ useSeoMeta({
   }" />
 
   <section class="hero home-hero">
-    <ResponsiveImage src="/media/showroom/showroom-4-1616x1212.jpg" alt="Bulthaup showroomkeuken van Stadshaege Keukendesign" loading="eager" />
+    <ResponsiveImage :src="page.hero.image" alt="Bulthaup showroomkeuken van Stadshaege Keukendesign" loading="eager" />
     <div class="hero-content">
-      <p class="eyebrow">Sinds 1998 in Amersfoort</p>
-      <h1>Persoonlijk ontworpen bulthaup-keukens in Amersfoort</h1>
-      <p>Stadshaege ontwerpt bulthaup-keukens op maat vanuit woning, kookgedrag en dagelijks gebruik. Rustig, precies en persoonlijk begeleid door Filip Leenman.</p>
+      <p class="eyebrow">{{ page.hero.eyebrow }}</p>
+      <h1>{{ page.title }}</h1>
+      <p>{{ page.hero.text }}</p>
       <div class="actions">
         <NuxtLink class="button" to="/contact/">Maak een afspraak</NuxtLink>
         <NuxtLink class="button-secondary" to="/projecten/">Bekijk projecten</NuxtLink>

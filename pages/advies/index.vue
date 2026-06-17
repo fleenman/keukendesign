@@ -1,9 +1,11 @@
 <script setup>
-useSeoMeta({ title: 'Keukenadvies | Stadshaege Keukendesign', description: 'Persoonlijk keukenadvies vanuit kookgedrag, woning, ergonomie, materiaal en dagelijks gebruik.' })
+import { pages } from '~/content/pages.mjs'
+const page = pages.advies
+useSeoMeta({ title: page.seoTitle, description: page.description })
 </script>
 
 <template>
-  <ContentSection :breadcrumbs="[{ label: 'Home', to: '/' }, { label: 'Advies' }]" title="Wat levert een persoonlijk keukenadvies op?" text="Een goede keuken begint niet met een standaardopstelling, maar met hoe u woont, kookt en de ruimte dagelijks gebruikt.">
+  <ContentSection :breadcrumbs="[{ label: 'Home', to: '/' }, { label: 'Advies' }]" :title="page.title" :text="page.intro">
     <div class="grid">
       <div class="panel"><h3>Uw routines</h3><p>Boodschappen, voorraad, ontbijt, samen koken, afval, apparatuur en onderhoud worden concreet gemaakt.</p></div>
       <div class="panel"><h3>Uw woning</h3><p>Lichtval, architectuur, looplijnen en materiaalrust bepalen de compositie.</p></div>

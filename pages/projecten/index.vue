@@ -1,18 +1,20 @@
 <script setup>
+import { pages } from '~/content/pages.mjs'
 import { projects } from '~/content/projects.mjs'
 
+const page = pages.projecten
 const visibleProjects = ref(projects)
 
 useSeoMeta({
-  title: 'Projecten | Gerealiseerde bulthaup-keukens',
-  description: 'Bekijk geselecteerde bulthaup-projecten van Stadshaege Keukendesign met filters op systeem, opstelling en materiaal.',
-  ogTitle: 'Gerealiseerde bulthaup-keukens',
-  ogDescription: 'Projecten als inspiratie en bewijs voor persoonlijk ontworpen keukens.'
+  title: page.seoTitle,
+  description: page.description,
+  ogTitle: page.title,
+  ogDescription: page.intro
 })
 </script>
 
 <template>
-  <ContentSection :breadcrumbs="[{ label: 'Home', to: '/' }, { label: 'Projecten' }]" title="Gerealiseerde bulthaup-keukens" text="Ontdek welke opstellingen, materialen en bulthaup-systemen passen bij uw eigen woonruimte.">
+  <ContentSection :breadcrumbs="[{ label: 'Home', to: '/' }, { label: 'Projecten' }]" :title="page.title" :text="page.intro">
     <ProjectFilters :projects="projects" @update="visibleProjects = $event" />
     <div class="grid project-grid" style="margin-top:2rem">
       <ProjectCard v-for="project in visibleProjects" :key="project.slug" :project="project" />
