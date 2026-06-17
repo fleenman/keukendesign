@@ -17,18 +17,26 @@ backend:
   name: github
   repo: jleenman/keukendesign
   branch: main
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
 ```
 
 Controleer na het aanmaken of koppelen van de GitHub-repository dat `repo` exact overeenkomt met `eigenaar/repository`. De branch is `main`.
 
 ## Authenticatie
 
-Decap CMS commit naar GitHub namens een ingelogde gebruiker. Daarvoor is een OAuth-configuratie nodig.
+Decap CMS commit naar GitHub namens een ingelogde gebruiker. Daarvoor is een OAuth-configuratie nodig. GitHub Pages is statische hosting en kan de OAuth callback niet zelf afhandelen.
 
-Gebruik een van deze routes:
+De huidige configuratie gebruikt daarom de Netlify OAuth endpoint als externe OAuth proxy:
 
-1. GitHub OAuth via de hostingprovider, bijvoorbeeld Netlify Identity/Git Gateway wanneer de site daar draait.
-2. Een eigen OAuth proxy voor Decap CMS/GitHub, waarbij `base_url` in `public/admin/config.yml` naar die proxy wijst.
+```yaml
+base_url: https://api.netlify.com
+auth_endpoint: auth
+```
+
+Dit is alleen de authenticatielaag voor Decap CMS; de site blijft op GitHub Pages staan en content blijft in GitHub als Markdown.
+
+Alternatief kan een eigen OAuth proxy voor Decap CMS/GitHub worden gebruikt. Zet dan `base_url` in `public/admin/config.yml` naar die proxy en laat `auth_endpoint` overeenkomen met de proxyroute.
 
 De OAuth-app moet toegang krijgen tot deze repository. Voor een private repository is minimaal toegang nodig om content te lezen en commits te schrijven. Beperk toegang bij voorkeur tot deze repository.
 
@@ -60,8 +68,10 @@ public/uploads
 In Markdown worden ze gerefereerd als:
 
 ```text
-/uploads/bestand.jpg
+/keukendesign/uploads/bestand.jpg
 ```
+
+Dit is nodig zolang GitHub Pages de site publiceert onder `https://jleenman.github.io/keukendesign/`. Als de custom domain `www.keukendesign.nl` actief is in GitHub Pages, kan `public_folder` terug naar `/uploads`.
 
 Dit werkt met de bestaande statische build, omdat alles onder `public/` direct wordt meegekopieerd naar de gegenereerde site.
 
@@ -74,6 +84,14 @@ npm run build
 ```
 
 Bij deploy naar static hosting worden `/admin`, `/uploads` en de rest van `public/` automatisch meegenomen.
+
+Voor GitHub Pages bouwt `.github/workflows/deploy.yml` met:
+
+```yaml
+NUXT_APP_BASE_URL: /keukendesign/
+```
+
+Daardoor verwijzen Nuxt-assets, fonts en publieke afbeeldingen naar de juiste submap op `jleenman.github.io`. Als GitHub Pages later volledig op `www.keukendesign.nl` draait, verwijder deze environment variable of zet hem op `/`.
 
 ## Lokale CMS-test
 

@@ -1,17 +1,16 @@
+const baseURL = process.env.NUXT_APP_BASE_URL || '/'
+
 export default defineNuxtConfig({
   ssr: true,
   devtools: { enabled: false },
   css: ['~/assets/css/main.css'],
   app: {
+    baseURL,
     head: {
       htmlAttrs: { lang: 'nl' },
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'theme-color', content: '#f6f3ec' }
-      ],
-      link: [
-        { rel: 'icon', href: '/favicon.ico' },
-        { rel: 'preload', href: '/fonts/rotissemisansstd-webfont.woff', as: 'font', type: 'font/woff', crossorigin: '' }
       ]
     }
   },
