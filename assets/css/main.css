@@ -777,6 +777,11 @@ p {
   transform: none;
 }
 
+.js .reveal[data-reveal].is-visible,
+.js .reveal[data-reveal]:focus-within {
+  opacity: 1;
+}
+
 ::view-transition-old(root),
 ::view-transition-new(root) {
   animation-duration: 220ms;

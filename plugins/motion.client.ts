@@ -8,20 +8,34 @@ export default defineNuxtPlugin((nuxtApp) => {
   const reveal = () => {
     const elements = Array.from(document.querySelectorAll<HTMLElement>('[data-reveal]'))
 
+    const show = (element: Element) => element.classList.add('is-visible')
+
     if (reducedMotion || !('IntersectionObserver' in window)) {
-      for (const element of elements) element.classList.add('is-visible')
+      for (const element of elements) show(element)
       return
     }
 
     const observer = new IntersectionObserver((entries) => {
       for (const entry of entries) {
         if (!entry.isIntersecting) continue
-        entry.target.classList.add('is-visible')
+        show(entry.target)
         observer.unobserve(entry.target)
       }
-    }, { rootMargin: '0px 0px -12% 0px', threshold: 0.12 })
+    }, { rootMargin: '0px 0px 8% 0px', threshold: 0.01 })
 
-    for (const element of elements) observer.observe(element)
+    for (const element of elements) {
+      const rect = element.getBoundingClientRect()
+      if (rect.top < window.innerHeight && rect.bottom > 0) {
+        show(element)
+        continue
+      }
+
+      observer.observe(element)
+    }
+
+    window.setTimeout(() => {
+      for (const element of elements) show(element)
+    }, 1200)
   }
 
   const enableViewTransitions = () => {
