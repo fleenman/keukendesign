@@ -1,0 +1,6 @@
+.nuxt
+.output
+node_modules
+.superpowers
+.DS_Store
+npm-debug.log*

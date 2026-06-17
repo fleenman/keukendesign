@@ -1,0 +1,73 @@
+backend:
+  name: github
+  repo: jleenman/keukendesign
+  branch: main
+
+local_backend: true
+
+site_url: https://www.keukendesign.nl
+display_url: https://www.keukendesign.nl
+logo_url: /favicon.ico
+
+media_folder: public/uploads
+public_folder: /uploads
+
+publish_mode: editorial_workflow
+
+collections:
+  - name: pages
+    label: Pagina's
+    label_singular: Pagina
+    folder: source
+    create: true
+    extension: md
+    format: frontmatter
+    slug: "{{slug}}"
+    path: "{{slug}}/index"
+    nested:
+      depth: 100
+      summary: "{{dirname}}/{{filename}}"
+    summary: "{{title}}"
+    sortable_fields:
+      - title
+      - modified
+      - source_url
+    fields:
+      - label: Titel
+        name: title
+        widget: string
+      - label: Bron-URL
+        name: source_url
+        widget: string
+        required: false
+      - label: Gewijzigd
+        name: modified
+        widget: datetime
+        required: false
+      - label: Inhoud
+        name: body
+        widget: markdown
+
+  - name: docs
+    label: Documentatie
+    label_singular: Document
+    folder: docs
+    create: true
+    extension: md
+    format: frontmatter
+    slug: "{{slug}}"
+    path: "{{slug}}"
+    nested:
+      depth: 10
+      summary: "{{dirname}}/{{filename}}"
+    summary: "{{title}}"
+    sortable_fields:
+      - title
+    fields:
+      - label: Titel
+        name: title
+        widget: string
+        required: false
+      - label: Inhoud
+        name: body
+        widget: markdown
