@@ -131,7 +131,7 @@
   </head>
   <body>
     <div id="cms-token-login" class="cms-login" hidden>
-      <form class="cms-login__panel" id="cms-token-form">
+      <form class="cms-login__panel" id="cms-token-form" method="post" action="." onsubmit="return false">
         <div class="cms-login__brand" aria-label="Stadshaege keukendesign">
           <strong>STADSHAEGE</strong>
           <span>keukendesign</span>
@@ -143,7 +143,7 @@
           <strong>jleenman/keukendesign</strong>.
         </p>
         <label for="cms-token">GitHub token</label>
-        <input id="cms-token" name="token" type="password" autocomplete="off" spellcheck="false" required>
+        <input id="cms-token" type="password" autocomplete="off" spellcheck="false" required>
         <button type="submit">Open CMS</button>
         <p class="cms-login__hint">
           Token nodig? Maak in GitHub een fine-grained token met
@@ -159,6 +159,7 @@
         var repo = 'jleenman/keukendesign';
         var apiRoot = 'https://api.github.com';
         var storedUser = readStoredUser();
+        var tokenFromUrl = getTokenFromUrl();
         var hasAuthCallback = /(?:access_token|code|error)=/.test(window.location.hash + window.location.search);
 
         function readStoredUser() {
@@ -197,6 +198,25 @@
 
             return response.json();
           });
+        }
+
+        function getTokenFromUrl() {
+          var search = window.location.search || '';
+
+          if (!search || !window.URLSearchParams) {
+            return null;
+          }
+
+          return new window.URLSearchParams(search).get('token');
+        }
+
+        function scrubTokenFromUrl() {
+          if (!window.history || !window.history.replaceState) {
+            return;
+          }
+
+          var cleanUrl = window.location.pathname + (window.location.hash || '');
+          window.history.replaceState(null, document.title, cleanUrl);
         }
 
         function validateToken(token) {
@@ -250,6 +270,32 @@
           input.focus();
         }
 
+        function setPendingState(isPending) {
+          button.disabled = isPending;
+          button.textContent = isPending ? 'Token controleren...' : 'Open CMS';
+        }
+
+        function persistTokenAndReload(token) {
+          setPendingState(true);
+          error.hidden = true;
+
+          validateToken(token).then(function (userData) {
+            window.localStorage.setItem(storageKey, JSON.stringify(userData));
+            window.location.replace(window.location.pathname + '#/collections/pages');
+          }).catch(function (validationError) {
+            error.textContent = validationError.message;
+            error.hidden = false;
+            setPendingState(false);
+          });
+        }
+
+        if (tokenFromUrl) {
+          scrubTokenFromUrl();
+          showLogin(null);
+          persistTokenAndReload(tokenFromUrl);
+          return;
+        }
+
         if (storedUser && storedUser.token && storedUser.backendName === 'github') {
           validateToken(storedUser.token).then(function (userData) {
             window.localStorage.setItem(storageKey, JSON.stringify(userData));
@@ -278,19 +324,7 @@
             return;
           }
 
-          button.disabled = true;
-          button.textContent = 'Token controleren...';
-          error.hidden = true;
-
-          validateToken(token).then(function (userData) {
-            window.localStorage.setItem(storageKey, JSON.stringify(userData));
-            window.location.reload();
-          }).catch(function (validationError) {
-            error.textContent = validationError.message;
-            error.hidden = false;
-            button.disabled = false;
-            button.textContent = 'Open CMS';
-          });
+          persistTokenAndReload(token);
         });
       }());
     </script>

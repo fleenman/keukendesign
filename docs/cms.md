@@ -27,7 +27,7 @@ Controleer na het aanmaken of koppelen van de GitHub-repository dat `repo` exact
 
 Decap CMS commit naar GitHub namens een ingelogde gebruiker. De directe GitHub-backend vereist dat de gebruiker push access heeft op de content-repository. Voor deze repository betekent dit dat iedere CMS-gebruiker als collaborator minimaal write access nodig heeft op `jleenman/keukendesign`.
 
-GitHub Pages is statische hosting en kan de OAuth callback niet zelf afhandelen. De publieke admin gebruikt daarom een repo-only fallback: een collaborator logt in met een eigen GitHub fine-grained token. De admin controleert de token eerst via de GitHub API op gebruiker en schrijfrechten voor `jleenman/keukendesign`. Alleen bij een geldige token wordt deze in browser-localStorage bewaard onder de standaard Decap-user key `decap-cms-user`. Bij een verlopen, ingetrokken of te beperkt token wordt de opgeslagen sessie verwijderd en verschijnt het loginformulier opnieuw.
+GitHub Pages is statische hosting en kan de OAuth callback niet zelf afhandelen. De publieke admin gebruikt daarom een repo-only fallback: een collaborator logt in met een eigen GitHub fine-grained token. De admin controleert de token eerst via de GitHub API op gebruiker en schrijfrechten voor `jleenman/keukendesign`. Alleen bij een geldige token wordt deze in browser-localStorage bewaard onder de standaard Decap-user key `decap-cms-user`. Bij een verlopen, ingetrokken of te beperkt token wordt de opgeslagen sessie verwijderd en verschijnt het loginformulier opnieuw. De token hoort nooit in de URL te blijven staan; als een browser toch op een `?token=...` URL belandt, verwijdert de admin die parameter direct en verwerkt hij de token via localStorage.
 
 Maak per gebruiker een fine-grained personal access token in GitHub met:
 
@@ -111,3 +111,5 @@ Open daarna:
 ```text
 http://127.0.0.1:3000/admin/
 ```
+
+Decap gebruikt hash-routes. De collectielijst staat dus onder `/admin/#/collections/pages`, niet onder `/admin/collections/pages`.
