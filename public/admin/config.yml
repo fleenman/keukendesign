@@ -2,8 +2,8 @@ backend:
   name: github
   repo: jleenman/keukendesign
   branch: main
-  base_url: https://api.netlify.com
-  auth_endpoint: auth
+  site_domain: jleenman.github.io
+  auth_scope: repo
 
 local_backend: true
 

@@ -17,30 +17,27 @@ backend:
   name: github
   repo: jleenman/keukendesign
   branch: main
-  base_url: https://api.netlify.com
-  auth_endpoint: auth
+  site_domain: jleenman.github.io
+  auth_scope: repo
 ```
 
 Controleer na het aanmaken of koppelen van de GitHub-repository dat `repo` exact overeenkomt met `eigenaar/repository`. De branch is `main`.
 
 ## Authenticatie
 
-Decap CMS commit naar GitHub namens een ingelogde gebruiker. Daarvoor is een OAuth-configuratie nodig. GitHub Pages is statische hosting en kan de OAuth callback niet zelf afhandelen.
+Decap CMS commit naar GitHub namens een ingelogde gebruiker. De directe GitHub-backend vereist dat de gebruiker push access heeft op de content-repository. Voor deze repository betekent dit dat iedere CMS-gebruiker als collaborator minimaal write access nodig heeft op `jleenman/keukendesign`.
 
-De huidige configuratie gebruikt daarom de Netlify OAuth endpoint als externe OAuth proxy:
+GitHub Pages is statische hosting en kan de OAuth callback niet zelf afhandelen. De publieke admin gebruikt daarom een repo-only fallback: een collaborator logt in met een eigen GitHub fine-grained token. De admin bewaart dit token in browser-localStorage onder de standaard Decap-user key en Decap valideert daarna zelf of de GitHub-gebruiker write access heeft.
 
-```yaml
-base_url: https://api.netlify.com
-auth_endpoint: auth
-```
+Maak per gebruiker een fine-grained personal access token in GitHub met:
 
-Dit is alleen de authenticatielaag voor Decap CMS; de site blijft op GitHub Pages staan en content blijft in GitHub als Markdown.
+- Repository access: alleen `jleenman/keukendesign`.
+- Permissions: `Contents: Read and write`.
+- Metadata: read-only, dit is standaard nodig voor GitHub API-toegang.
 
-Alternatief kan een eigen OAuth proxy voor Decap CMS/GitHub worden gebruikt. Zet dan `base_url` in `public/admin/config.yml` naar die proxy en laat `auth_endpoint` overeenkomen met de proxyroute.
+Voor klassieke tokens is de `repo` scope nodig, maar fine-grained tokens hebben de voorkeur omdat ze tot deze repository beperkt kunnen worden.
 
-De OAuth-app moet toegang krijgen tot deze repository. Voor een private repository is minimaal toegang nodig om content te lezen en commits te schrijven. Beperk toegang bij voorkeur tot deze repository.
-
-Zonder OAuth-configuratie opent `/admin` wel, maar kan Decap niet inloggen of wijzigingen naar GitHub committen.
+Alternatief kan later alsnog een eigen OAuth proxy voor Decap CMS/GitHub worden gebruikt. Zet dan `base_url` en `auth_endpoint` in `public/admin/config.yml` naar die proxyroute. De eerdere verwijzing naar `https://api.netlify.com/auth` is verwijderd, omdat die route zonder Netlify OAuth-provider voor deze site 404 geeft en de login blokkeert.
 
 ## Collecties
 
