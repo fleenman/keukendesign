@@ -10,7 +10,7 @@
   --color-accent: #68705b;
   --color-accent-dark: #434b3b;
   --color-dark: #1f211d;
-  --brand-subtitle-tracking: 0.28em;
+  --brand-subtitle-tracking: 0.38em;
   --space-page: clamp(1rem, 4vw, 4rem);
   --section: clamp(3.5rem, 8vw, 7rem);
   --max-content: 1180px;
