@@ -19,6 +19,10 @@ export const site = {
       "to": "/bulthaup/"
     },
     {
+      "label": "Extendo",
+      "to": "/extendo/"
+    },
+    {
       "label": "Projecten",
       "to": "/projecten/"
     },
@@ -65,16 +69,20 @@ export const site = {
           "to": "/bulthaup/"
         },
         {
-          "label": "Bulthaup b1",
-          "to": "/bulthaup/b1/"
+          "label": "Bulthaup b3",
+          "to": "/bulthaup/b3/"
         },
         {
           "label": "Bulthaup b2",
           "to": "/bulthaup/b2/"
         },
         {
-          "label": "Bulthaup b3",
-          "to": "/bulthaup/b3/"
+          "label": "Bulthaup bm",
+          "to": "/bulthaup/bm/"
+        },
+        {
+          "label": "Extendo tafels en meubels",
+          "to": "/extendo/"
         }
       ]
     },

@@ -11,13 +11,13 @@ useSeoMeta({
 
 const systemCards = [
   {
-    system: 'b1',
-    title: 'b1',
-    text: 'Eenvoudig, helder en functioneel. Geschikt wanneer rust en toegankelijkheid centraal staan.',
-    to: '/bulthaup/b1/',
-    link: 'Lees over b1',
-    image: projects.find((project) => project.system === 'b1')?.cover,
-    alt: 'Bulthaup b1 keuken met eiken natuur en eilandopstelling'
+    system: 'b3',
+    title: 'b3',
+    text: 'Het meest flexibele systeem voor wand, eiland, nissen en rijke materiaalkeuzes.',
+    to: '/bulthaup/b3/',
+    link: 'Lees over b3',
+    image: projects.find((project) => project.system === 'b3')?.cover,
+    alt: 'Bulthaup b3 keuken met maatwerk kastenwand en eiland'
   },
   {
     system: 'b2',
@@ -29,13 +29,13 @@ const systemCards = [
     alt: 'Bulthaup b2 keuken met werkbank en kastprincipe'
   },
   {
-    system: 'b3',
-    title: 'b3',
-    text: 'Het meest flexibele systeem voor wand, eiland, nissen en rijke materiaalkeuzes.',
-    to: '/bulthaup/b3/',
-    link: 'Lees over b3',
-    image: projects.find((project) => project.system === 'b3')?.cover,
-    alt: 'Bulthaup b3 keuken met maatwerk kastenwand en eiland'
+    system: 'bm',
+    title: 'bm',
+    text: 'Nieuwe informatie over bm volgt zodra foto’s en aanvullende content beschikbaar zijn.',
+    to: '/bulthaup/bm/',
+    link: 'Lees over bm',
+    image: undefined,
+    alt: 'Bulthaup bm'
   }
 ]
 </script>

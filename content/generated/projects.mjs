@@ -79,29 +79,6 @@ export const projects = [
     ]
   },
   {
-    "title": "Bulthaup b1 eiland met eiken natuur in Amersfoort",
-    "slug": "bulthaup-b1-eiken-natuur-amersfoort",
-    "system": "b1",
-    "layout": "eiland",
-    "materials": [
-      "eiken natuur"
-    ],
-    "appliances": [],
-    "region": "Amersfoort",
-    "summary": "Een b1-keuken met natuurlijke houttoon en een open eilandopstelling.",
-    "question": "Hoe combineer je eenvoud, hout en een praktische leefkeuken?",
-    "challenge": "De opstelling moest materiaal, bergruimte, looplijnen en dagelijks gebruik in balans brengen.",
-    "solution": "De b1-basis houdt de compositie eenvoudig; eiken natuur voegt een vriendelijke materiaaltoon toe.",
-    "body": "Een b1-keuken met natuurlijke houttoon en een open eilandopstelling.",
-    "cover": "/media/projecten/bulthaup-b1-eiland-met-eiken-natuur-Amersfoort-3-1616x1077.jpg",
-    "gallery": [
-      "/media/projecten/bulthaup-b1-eiland-met-eiken-natuur-Amersfoort-3-1616x1077.jpg",
-      "/media/projecten/bulthaup-b1-eiland-met-eiken-natuur-Amersfoort-2-1616x1077.jpg",
-      "/media/projecten/bulthaup-b1-eiland-met-eiken-natuur-Amersfoort-5-1616x1077.jpg",
-      "/media/projecten/bulthaup-b1-eiland-met-eiken-natuur-Amersfoort-6-1616x1077.jpg"
-    ]
-  },
-  {
     "title": "Bulthaup b3 wit met marmer",
     "slug": "bulthaup-b3-wit-marmer",
     "system": "b3",
@@ -576,6 +553,33 @@ export const projects = [
     ]
   },
   {
+    "title": "Bulthaup bm alux champagne met noten en Blanc Elysee blad",
+    "slug": "bulthaup-bm-alux-champagne-noten-blanc-elysee",
+    "system": "bm",
+    "layout": "wand en eiland",
+    "materials": [
+      "alux champagne",
+      "noten",
+      "Blanc Elysee"
+    ],
+    "appliances": [],
+    "region": "Amersfoort en omgeving",
+    "summary": "Een bm-keuken met alux champagne, noten en een Blanc Elysee blad.",
+    "question": "Hoe combineer je een warme houttoon met een lichte, precieze bm-compositie?",
+    "challenge": "De materialen moesten rijk aanvoelen zonder de rustige lijnvoering te verstoren.",
+    "solution": "Alux champagne, noten en het Blanc Elysee blad brengen warmte en helderheid in balans.",
+    "body": "Een bm-keuken met alux champagne, noten en een Blanc Elysee blad.",
+    "cover": "/media/projecten/bm-keuken-alux-champagne-noten-blanc-elysee-blad-1.jpg",
+    "gallery": [
+      "/media/projecten/bm-keuken-alux-champagne-noten-blanc-elysee-blad-1.jpg",
+      "/media/projecten/bm-keuken-alux-champagne-noten-blanc-elysee-blad-2.jpg",
+      "/media/projecten/bm-keuken-alux-champagne-noten-blanc-elysee-blad-3.jpg",
+      "/media/projecten/bm-keuken-alux-champagne-noten-blanc-elysee-blad-4.jpg",
+      "/media/projecten/bm-keuken-alux-champagne-noten-blanc-elysee-blad-5.jpg",
+      "/media/projecten/bm-keuken-alux-champagne-noten-blanc-elysee-blad-6.jpg"
+    ]
+  },
+  {
     "title": "Bulthaup b3 zwart eiken met kaolin en rvs blad",
     "slug": "bulthaup-b3-zwart-eiken-kaolin-rvs",
     "system": "b3",
@@ -597,6 +601,30 @@ export const projects = [
       "/media/projecten/bulthaup-b3-zwart-eiken-met-kaolin-en-rvs-blad-1-1616x1077.jpg",
       "/media/projecten/bulthaup-b3-zwart-eiken-met-kaolin-en-rvs-blad-3-1616x1077.jpg",
       "/media/projecten/bulthaup-b3-zwart-eiken-met-kaolin-en-rvs-blad-2-1616x1077.jpg"
+    ]
+  },
+  {
+    "title": "Bulthaup bm sandbeige met Dekton Grafite blad",
+    "slug": "bulthaup-bm-sandbeige-dekton-grafite",
+    "system": "bm",
+    "layout": "wand en eiland",
+    "materials": [
+      "sandbeige",
+      "Dekton Grafite"
+    ],
+    "appliances": [],
+    "region": "Amersfoort en omgeving",
+    "summary": "Een bm-keuken in sandbeige met een Dekton Grafite blad.",
+    "question": "Hoe krijgt een rustige lichte keuken voldoende diepte en contrast?",
+    "challenge": "De lichte frontkleur vroeg om een werkblad dat nuance toevoegt zonder zwaar te worden.",
+    "solution": "Sandbeige fronten en Dekton Grafite zorgen samen voor een ingetogen, bruikbare compositie.",
+    "body": "Een bm-keuken in sandbeige met een Dekton Grafite blad.",
+    "cover": "/media/projecten/bm-keuken-sandbeige-met-dekton-grafite-blad-1.jpg",
+    "gallery": [
+      "/media/projecten/bm-keuken-sandbeige-met-dekton-grafite-blad-1.jpg",
+      "/media/projecten/bm-keuken-sandbeige-met-dekton-grafite-blad-2.jpg",
+      "/media/projecten/bm-keuken-sandbeige-met-dekton-grafite-blad-3.jpg",
+      "/media/projecten/bm-keuken-sandbeige-met-dekton-grafite-blad-4.jpg"
     ]
   },
   {
@@ -624,25 +652,26 @@ export const projects = [
     ]
   },
   {
-    "title": "Bulthaup b2 met Dekton blad en grijs essen",
+    "title": "Bulthaup b2 met werkbank en werkkast",
     "slug": "bulthaup-b2-dekton-grijs-essen",
     "system": "b2",
     "layout": "werkbank en kast",
     "materials": [
-      "Dekton",
-      "grijs essen"
+      "werkbank",
+      "werkkast"
     ],
     "appliances": [],
     "region": "Amersfoort en omgeving",
-    "summary": "Een b2-opstelling met een Dekton blad en grijs essen als functionele keukenwerkplaats.",
+    "summary": "Een b2-opstelling waarin werkbank en werkkast de keukenfuncties zichtbaar en bruikbaar maken.",
     "question": "Hoe wordt deze keukenopstelling rustig, bruikbaar en passend bij de woning?",
     "challenge": "De opstelling moest materiaal, bergruimte, looplijnen en dagelijks gebruik in balans brengen.",
-    "solution": "De bulthaup-systeemopbouw houdt de lijnen rustig en laat materiaal, werkblad en opstelling de ruimte bepalen.",
-    "body": "Een b2-opstelling met een Dekton blad en grijs essen als functionele keukenwerkplaats.",
-    "cover": "/media/projecten/b2-dekton-blad-grijs-essen-1-1616x1077.jpg",
+    "solution": "De b2-werkbank en werkkast maken voorbereiden, koken en opbergen helder leesbaar in de ruimte.",
+    "body": "Een b2-opstelling waarin werkbank en werkkast de keukenfuncties zichtbaar en bruikbaar maken.",
+    "cover": "/media/projecten/bulthaup-b2-werkbank.jpg",
     "gallery": [
-      "/media/projecten/b2-dekton-blad-grijs-essen-1-1616x1077.jpg",
-      "/media/projecten/b2-dekton-blad-grijs-essen-4-1616x1077.jpg"
+      "/media/projecten/bulthaup-b2-werkbank.jpg",
+      "/media/projecten/bulthaup-b2-werkkast-open.jpg",
+      "/media/projecten/bulthaup-b2-werkkast.jpg"
     ]
   },
   {
@@ -670,6 +699,32 @@ export const projects = [
     ]
   },
   {
+    "title": "Bulthaup b3 alpine wit met Dekton Eter eilandwerkblad",
+    "slug": "bulthaup-b3-alpine-wit-dekton-eter-eiland",
+    "system": "b3",
+    "layout": "eiland",
+    "materials": [
+      "alpine wit",
+      "Dekton Eter"
+    ],
+    "appliances": [],
+    "region": "Amersfoort en omgeving",
+    "summary": "Een alpine witte b3-keuken met een Dekton Eter eilandwerkblad.",
+    "question": "Hoe blijft een lichte eilandkeuken rustig en dagelijks bruikbaar?",
+    "challenge": "Het eiland moest royaal ogen zonder de ruimte visueel te belasten.",
+    "solution": "Alpine wit en Dekton Eter versterken de heldere opbouw en houden het eiland rustig.",
+    "body": "Een alpine witte b3-keuken met een Dekton Eter eilandwerkblad.",
+    "cover": "/media/projecten/bulthaup-b3-alpine-wit-met-dekton-eter-eiland-werkblad-1-01.jpg",
+    "gallery": [
+      "/media/projecten/bulthaup-b3-alpine-wit-met-dekton-eter-eiland-werkblad-1-01.jpg",
+      "/media/projecten/bulthaup-b3-alpine-wit-met-dekton-eter-eiland-werkblad-1-02.jpg",
+      "/media/projecten/bulthaup-b3-alpine-wit-met-dekton-eter-eiland-werkblad-1-03.jpg",
+      "/media/projecten/bulthaup-b3-alpine-wit-met-dekton-eter-eiland-werkblad-1-04.jpg",
+      "/media/projecten/bulthaup-b3-alpine-wit-met-dekton-eter-eiland-werkblad-1-05.jpg",
+      "/media/projecten/bulthaup-b3-alpine-wit-met-dekton-eter-eiland-werkblad-1-06.jpg"
+    ]
+  },
+  {
     "title": "Bulthaup b3 kiezel met wandkasten en kookeiland",
     "slug": "bulthaup-b3-kiezel-wandkasten-kookeiland",
     "system": "b3",
@@ -688,6 +743,31 @@ export const projects = [
     "gallery": [
       "/media/projecten/DSC_8369-1616x1075.jpg",
       "/media/projecten/DSC_8362-1616x1075.jpg"
+    ]
+  },
+  {
+    "title": "Bulthaup b3 greeploos eiken zwartbruin met Miami Vena werkblad",
+    "slug": "bulthaup-b3-greeploos-eiken-zwart-bruin-miami-vena",
+    "system": "b3",
+    "layout": "greeploos",
+    "materials": [
+      "eiken zwartbruin",
+      "Miami Vena"
+    ],
+    "appliances": [],
+    "region": "Amersfoort en omgeving",
+    "summary": "Een greeploze b3-keuken met eiken zwartbruin en een Miami Vena werkblad.",
+    "question": "Hoe combineer je donkere houttonen met een licht werkblad zonder onrust?",
+    "challenge": "De keuken moest krachtig zijn, maar de greeploze belijning helder houden.",
+    "solution": "Eiken zwartbruin geeft diepte; Miami Vena brengt licht en contrast in het werkvlak.",
+    "body": "Een greeploze b3-keuken met eiken zwartbruin en een Miami Vena werkblad.",
+    "cover": "/media/projecten/bulthaup-b3-greeploos-eiken-zwart-bruin-met-miami-vena-werkblad-01.jpg",
+    "gallery": [
+      "/media/projecten/bulthaup-b3-greeploos-eiken-zwart-bruin-met-miami-vena-werkblad-01.jpg",
+      "/media/projecten/bulthaup-b3-greeploos-eiken-zwart-bruin-met-miami-vena-werkblad-02.jpg",
+      "/media/projecten/bulthaup-b3-greeploos-eiken-zwart-bruin-met-miami-vena-werkblad-03.jpg",
+      "/media/projecten/bulthaup-b3-greeploos-eiken-zwart-bruin-met-miami-vena-werkblad-04.jpg",
+      "/media/projecten/bulthaup-b3-greeploos-eiken-zwart-bruin-met-miami-vena-werkblad-05.jpg"
     ]
   },
   {
@@ -710,6 +790,159 @@ export const projects = [
     "gallery": [
       "/media/projecten/BRS7817.jpg",
       "/media/projecten/BRS7816.jpg"
+    ]
+  },
+  {
+    "title": "Bulthaup b3 kaolin U-opstelling met eiken barblad",
+    "slug": "bulthaup-b3-kaolin-u-opstelling-eiken-barblad",
+    "system": "b3",
+    "layout": "U-opstelling",
+    "materials": [
+      "kaolin",
+      "eiken"
+    ],
+    "appliances": [],
+    "region": "Amersfoort en omgeving",
+    "summary": "Een b3-keuken in kaolin met U-opstelling en eiken barblad.",
+    "question": "Hoe maak je een U-opstelling praktisch zonder dat deze gesloten voelt?",
+    "challenge": "Werkruimte, zitplek en loopruimte moesten in een compacte compositie samenkomen.",
+    "solution": "Kaolin houdt de basis licht; het eiken barblad maakt de opstelling warm en uitnodigend.",
+    "body": "Een b3-keuken in kaolin met U-opstelling en eiken barblad.",
+    "cover": "/media/projecten/bulthaup-b3-kaolin-u-opstelling-eiken-barblad-01.jpg",
+    "gallery": [
+      "/media/projecten/bulthaup-b3-kaolin-u-opstelling-eiken-barblad-01.jpg",
+      "/media/projecten/bulthaup-b3-kaolin-u-opstelling-eiken-barblad-02.jpg",
+      "/media/projecten/bulthaup-b3-kaolin-u-opstelling-eiken-barblad-03.jpg",
+      "/media/projecten/bulthaup-b3-kaolin-u-opstelling-eiken-barblad-04.jpg"
+    ]
+  },
+  {
+    "title": "Bulthaup b3 kaolin en flint met kookeiland en zitoverstek",
+    "slug": "bulthaup-b3-kaolin-flint-kookeiland-zitoverstek",
+    "system": "b3",
+    "layout": "kookeiland",
+    "materials": [
+      "kaolin",
+      "flint"
+    ],
+    "appliances": [],
+    "region": "Amersfoort en omgeving",
+    "summary": "Een b3-keuken met kaolin, flint, kookeiland en zitoverstek.",
+    "question": "Hoe combineer je koken, zitten en opbergen in een rustig eiland?",
+    "challenge": "Het zitoverstek moest functioneel zijn zonder de strakke eilandvorm te verstoren.",
+    "solution": "Kaolin en flint geven subtiel contrast, terwijl het zitoverstek vanzelf in de compositie valt.",
+    "body": "Een b3-keuken met kaolin, flint, kookeiland en zitoverstek.",
+    "cover": "/media/projecten/bulthaup-b3-kaolin-met-flint-kookeiland-met-zit-overstek-01.jpg",
+    "gallery": [
+      "/media/projecten/bulthaup-b3-kaolin-met-flint-kookeiland-met-zit-overstek-01.jpg",
+      "/media/projecten/bulthaup-b3-kaolin-met-flint-kookeiland-met-zit-overstek-02.jpg",
+      "/media/projecten/bulthaup-b3-kaolin-met-flint-kookeiland-met-zit-overstek-03.jpg",
+      "/media/projecten/bulthaup-b3-kaolin-met-flint-kookeiland-met-zit-overstek-04.jpg",
+      "/media/projecten/bulthaup-b3-kaolin-met-flint-kookeiland-met-zit-overstek-05.jpg"
+    ]
+  },
+  {
+    "title": "Bulthaup b3 kiezel en flint met Dekton Pietra blad",
+    "slug": "bulthaup-b3-kiezel-flint-dekton-pietra",
+    "system": "b3",
+    "layout": "wand en eiland",
+    "materials": [
+      "kiezel",
+      "flint",
+      "Dekton Pietra"
+    ],
+    "appliances": [],
+    "region": "Amersfoort en omgeving",
+    "summary": "Een b3-keuken met kiezel, flint en een Dekton Pietra blad.",
+    "question": "Hoe krijgt een ton-sur-ton keuken voldoende detail?",
+    "challenge": "De kleurtonen moesten dicht bij elkaar blijven, maar het werkblad moest zichtbaar karakter geven.",
+    "solution": "Kiezel, flint en Dekton Pietra bouwen het ontwerp op uit subtiele materiaalverschillen.",
+    "body": "Een b3-keuken met kiezel, flint en een Dekton Pietra blad.",
+    "cover": "/media/projecten/bulthaup-b3-kiezel-en-flint-met-dekton-pietra-blad-1-01.jpg",
+    "gallery": [
+      "/media/projecten/bulthaup-b3-kiezel-en-flint-met-dekton-pietra-blad-1-01.jpg",
+      "/media/projecten/bulthaup-b3-kiezel-en-flint-met-dekton-pietra-blad-1-02.jpg",
+      "/media/projecten/bulthaup-b3-kiezel-en-flint-met-dekton-pietra-blad-1-03.jpg",
+      "/media/projecten/bulthaup-b3-kiezel-en-flint-met-dekton-pietra-blad-1-04.jpg",
+      "/media/projecten/bulthaup-b3-kiezel-en-flint-met-dekton-pietra-blad-1-05.jpg",
+      "/media/projecten/bulthaup-b3-kiezel-en-flint-met-dekton-pietra-blad-1-06.jpg"
+    ]
+  },
+  {
+    "title": "Bulthaup b3 kiezel met Dekton Pietra en Extendo tafel",
+    "slug": "bulthaup-b3-kiezel-dekton-pietra-extendo-tafel",
+    "system": "b3",
+    "layout": "wand en tafel",
+    "materials": [
+      "kiezel",
+      "Dekton Pietra",
+      "Extendo"
+    ],
+    "appliances": [],
+    "region": "Amersfoort en omgeving",
+    "summary": "Een b3-keuken in kiezel met Dekton Pietra werkblad en Extendo tafel.",
+    "question": "Hoe laat je keuken en eettafel als een geheel voelen?",
+    "challenge": "De tafel moest aansluiten bij de keuken zonder dezelfde functie of massa te krijgen.",
+    "solution": "Kiezel en Dekton Pietra vormen de keukenbasis; de Extendo tafel maakt de leefruimte compleet.",
+    "body": "Een b3-keuken in kiezel met Dekton Pietra werkblad en Extendo tafel.",
+    "cover": "/media/projecten/bulthaup-b3-kiezel-met-dekton-pietra-werkblad-en-extendo-tafel-01.jpg",
+    "gallery": [
+      "/media/projecten/bulthaup-b3-kiezel-met-dekton-pietra-werkblad-en-extendo-tafel-01.jpg",
+      "/media/projecten/bulthaup-b3-kiezel-met-dekton-pietra-werkblad-en-extendo-tafel-02.jpg",
+      "/media/projecten/bulthaup-b3-kiezel-met-dekton-pietra-werkblad-en-extendo-tafel-03.jpg",
+      "/media/projecten/bulthaup-b3-kiezel-met-dekton-pietra-werkblad-en-extendo-tafel-04.jpg"
+    ]
+  },
+  {
+    "title": "Bulthaup b3 kiezel met noten fineer en Coral Clay werkblad",
+    "slug": "bulthaup-b3-kiezel-noten-coral-clay",
+    "system": "b3",
+    "layout": "wand en eiland",
+    "materials": [
+      "kiezel",
+      "noten fineer",
+      "Coral Clay"
+    ],
+    "appliances": [],
+    "region": "Amersfoort en omgeving",
+    "summary": "Een b3-keuken met kiezel, noten fineer en een Coral Clay werkblad.",
+    "question": "Hoe voeg je warmte toe aan een rustige b3-compositie?",
+    "challenge": "Hout en werkblad moesten sfeer brengen zonder te overheersen.",
+    "solution": "Kiezel houdt de basis ingetogen; noten fineer en Coral Clay voegen warmte en tactiliteit toe.",
+    "body": "Een b3-keuken met kiezel, noten fineer en een Coral Clay werkblad.",
+    "cover": "/media/projecten/bulthaup-b3-kiezel-met-noten-fineer-coral-clay-werkblad-01.jpg",
+    "gallery": [
+      "/media/projecten/bulthaup-b3-kiezel-met-noten-fineer-coral-clay-werkblad-01.jpg",
+      "/media/projecten/bulthaup-b3-kiezel-met-noten-fineer-coral-clay-werkblad-02.jpg",
+      "/media/projecten/bulthaup-b3-kiezel-met-noten-fineer-coral-clay-werkblad-03.jpg",
+      "/media/projecten/bulthaup-b3-kiezel-met-noten-fineer-coral-clay-werkblad-04.jpg",
+      "/media/projecten/bulthaup-b3-kiezel-met-noten-fineer-coral-clay-werkblad-05.jpg"
+    ]
+  },
+  {
+    "title": "Bulthaup b3 zwartgrijs eiken structuur met Silestone Nolita",
+    "slug": "bulthaup-b3-zwart-grijs-eiken-silestone-nolita",
+    "system": "b3",
+    "layout": "wand en eiland",
+    "materials": [
+      "zwartgrijs eiken structuur",
+      "Silestone Nolita"
+    ],
+    "appliances": [],
+    "region": "Amersfoort en omgeving",
+    "summary": "Een b3-keuken met zwartgrijs eiken structuur en Silestone Nolita werkblad.",
+    "question": "Hoe krijgt een donkere keuken voldoende licht en verfijning?",
+    "challenge": "De donkere houtstructuur moest krachtig blijven zonder zwaar te worden.",
+    "solution": "Silestone Nolita brengt helderheid in het werkblad en laat de zwartgrijze eiken structuur spreken.",
+    "body": "Een b3-keuken met zwartgrijs eiken structuur en Silestone Nolita werkblad.",
+    "cover": "/media/projecten/bulthaup-b3-zwart-grijs-eiken-struktuur-silestone-nolita-werkblad-01.jpg",
+    "gallery": [
+      "/media/projecten/bulthaup-b3-zwart-grijs-eiken-struktuur-silestone-nolita-werkblad-01.jpg",
+      "/media/projecten/bulthaup-b3-zwart-grijs-eiken-struktuur-silestone-nolita-werkblad-02.jpg",
+      "/media/projecten/bulthaup-b3-zwart-grijs-eiken-struktuur-silestone-nolita-werkblad-03.jpg",
+      "/media/projecten/bulthaup-b3-zwart-grijs-eiken-struktuur-silestone-nolita-werkblad-04.jpg",
+      "/media/projecten/bulthaup-b3-zwart-grijs-eiken-struktuur-silestone-nolita-werkblad-05.jpg",
+      "/media/projecten/bulthaup-b3-zwart-grijs-eiken-struktuur-silestone-nolita-werkblad-06.jpg"
     ]
   }
 ]
