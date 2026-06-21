@@ -111,7 +111,7 @@ collections:
       - { label: Volgorde, name: order, widget: number, value_type: int, required: false }
       - { label: Titel, name: title, widget: string }
       - { label: Slug, name: slug, widget: string }
-      - { label: Systeem, name: system, widget: select, options: [b1, b2, b3] }
+      - { label: Systeem, name: system, widget: select, options: [b3, b2, bm] }
       - { label: Opstelling, name: layout, widget: string }
       - label: Materialen
         name: materials
