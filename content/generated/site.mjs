@@ -19,6 +19,10 @@ export const site = {
       "to": "/bulthaup/"
     },
     {
+      "label": "Extendo",
+      "to": "/extendo/"
+    },
+    {
       "label": "Projecten",
       "to": "/projecten/"
     },
@@ -101,6 +105,10 @@ export const site = {
         {
           "label": "Afspraak voorbereiden",
           "to": "/advies/afspraak-voorbereiden/"
+        },
+        {
+          "label": "Extendo kastinrichting",
+          "to": "/extendo/"
         }
       ]
     },

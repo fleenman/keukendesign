@@ -36,6 +36,15 @@ const systemCards = [
     link: 'Lees over b3',
     image: projects.find((project) => project.system === 'b3')?.cover,
     alt: 'Bulthaup b3 keuken met maatwerk kastenwand en eiland'
+  },
+  {
+    system: 'bm',
+    title: 'bm',
+    text: 'bm brengt de keuken terug naar vrijstaande meubels in massief hout en roestvrij staal, met ruimte voor koken, opbergen en dagelijks gebruik.',
+    to: '/contact/',
+    link: 'Bespreek bm in de showroom',
+    image: '/media/projecten/bulthaup-b3-en-b2-kast-noten-1616x1077.jpg',
+    alt: 'Bulthaup showroomopstelling met eiland en open houten kast'
   }
 ]
 </script>

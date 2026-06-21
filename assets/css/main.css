@@ -128,7 +128,7 @@ button {
 .brand span {
   display: block;
   color: #4f514a;
-  font-size: clamp(0.95rem, 1.2vw, 1.08rem);
+  font-size: clamp(0.8rem, 1.3vw, 1.08rem);
   letter-spacing: var(--brand-subtitle-tracking);
   text-transform: lowercase;
 }
@@ -454,6 +454,41 @@ p {
 .project-card:focus-within img {
   filter: saturate(1.05) contrast(1.03);
   scale: 1.035;
+}
+
+.product-card {
+  display: grid;
+  align-content: start;
+  gap: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+.product-card img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  transition: filter 260ms ease, scale 260ms ease;
+}
+
+.product-card:hover img,
+.product-card:focus-within img {
+  filter: contrast(1.04) saturate(1.06);
+  scale: 1.018;
+}
+
+.product-card-body {
+  display: grid;
+  gap: 0.75rem;
+  padding: clamp(1rem, 3vw, 1.5rem);
+}
+
+.product-card-body span {
+  width: fit-content;
+  color: var(--color-accent);
+  font-family: var(--font-brand);
+  font-size: 0.9rem;
+  text-transform: uppercase;
 }
 
 .image-count {

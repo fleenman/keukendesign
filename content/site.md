@@ -15,6 +15,8 @@ contact:
 navigation:
   - label: Bulthaup
     to: /bulthaup/
+  - label: Extendo
+    to: /extendo/
   - label: Projecten
     to: /projecten/
   - label: Advies
@@ -56,6 +58,8 @@ footerGroups:
         to: /advies/werkwijze/
       - label: Afspraak voorbereiden
         to: /advies/afspraak-voorbereiden/
+      - label: Extendo kastinrichting
+        to: /extendo/
   - title: Juridisch
     links:
       - label: Privacy
