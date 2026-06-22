@@ -1,23 +1,22 @@
 ---
 order: 27
-title: Bulthaup b2 met Dekton blad en grijs essen
+title: Bulthaup b2 met werkbank en werkkast
 slug: bulthaup-b2-dekton-grijs-essen
 system: b2
 layout: werkbank en kast
 materials:
-  - Dekton
-  - grijs essen
+  - werkbank
+  - werkkast
 appliances: []
 region: Amersfoort en omgeving
-summary: Een b2-opstelling met een Dekton blad en grijs essen als functionele
-  keukenwerkplaats.
+summary: Een b2-opstelling waarin werkbank en werkkast de keukenfuncties zichtbaar en bruikbaar maken.
 question: Hoe wordt deze keukenopstelling rustig, bruikbaar en passend bij de woning?
 challenge: De opstelling moest materiaal, bergruimte, looplijnen en dagelijks
   gebruik in balans brengen.
-solution: De bulthaup-systeemopbouw houdt de lijnen rustig en laat materiaal,
-  werkblad en opstelling de ruimte bepalen.
+solution: De b2-werkbank en werkkast maken voorbereiden, koken en opbergen helder leesbaar in de ruimte.
 images:
-  - /media/projecten/b2-dekton-blad-grijs-essen-1-1616x1077.jpg
-  - /media/projecten/b2-dekton-blad-grijs-essen-4-1616x1077.jpg
+  - /media/projecten/bulthaup-b2-werkbank.jpg
+  - /media/projecten/bulthaup-b2-werkkast-open.jpg
+  - /media/projecten/bulthaup-b2-werkkast.jpg
 ---
-Een b2-opstelling met een Dekton blad en grijs essen als functionele keukenwerkplaats.
+Een b2-opstelling waarin werkbank en werkkast de keukenfuncties zichtbaar en bruikbaar maken.

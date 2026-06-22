@@ -27,15 +27,6 @@ export const pages = {
     "intro": "Een goede keuken begint niet met een standaardopstelling, maar met hoe u woont, kookt en de ruimte dagelijks gebruikt.",
     "body": "Een goede keuken begint niet met een standaardopstelling, maar met hoe u woont, kookt en de ruimte dagelijks gebruikt."
   },
-  "bulthaup-b1": {
-    "slug": "bulthaup-b1",
-    "route": "/bulthaup/b1/",
-    "title": "Helder, toegankelijk en functioneel",
-    "seoTitle": "Bulthaup b1 | Stadshaege Keukendesign",
-    "description": "Bulthaup b1 als heldere en functionele keukenbasis, te bespreken in de showroom in Amersfoort.",
-    "intro": "b1 past bij bezoekers die een rustige bulthaup-keuken willen met een duidelijke basis en een praktische indeling.",
-    "body": "b1 past bij bezoekers die een rustige bulthaup-keuken willen met een duidelijke basis en een praktische indeling."
-  },
   "bulthaup-b2": {
     "slug": "bulthaup-b2",
     "route": "/bulthaup/b2/",
@@ -54,12 +45,21 @@ export const pages = {
     "intro": "b3 is geschikt voor maatwerk rond wandopbouw, eilandoplossingen, nissen, materiaalcombinaties en een rustige architectonische compositie.",
     "body": "b3 is geschikt voor maatwerk rond wandopbouw, eilandoplossingen, nissen, materiaalcombinaties en een rustige architectonische compositie."
   },
+  "bulthaup-bm": {
+    "slug": "bulthaup-bm",
+    "route": "/bulthaup/bm/",
+    "title": "Bulthaup bm",
+    "seoTitle": "Bulthaup bm | Stadshaege Keukendesign",
+    "description": "Bulthaup bm als nieuwe lijn met verfijnde materialen, rustige belijning en persoonlijke combinaties.",
+    "intro": "bm brengt rustige belijning, verfijnde materiaalcombinaties en dagelijkse bruikbaarheid samen in een nieuwe bulthaup-lijn.",
+    "body": "bm brengt rustige belijning, verfijnde materiaalcombinaties en dagelijkse bruikbaarheid samen in een nieuwe bulthaup-lijn."
+  },
   "bulthaup": {
     "slug": "bulthaup",
     "route": "/bulthaup/",
     "title": "Bulthaup-keukens op maat",
     "seoTitle": "Bulthaup keukens | Stadshaege Keukendesign",
-    "description": "Vergelijk bulthaup b1, b2 en b3 en ervaar materialen en systemen in de showroom in Amersfoort.",
+    "description": "Vergelijk bulthaup b3, b2 en bm en ervaar materialen en systemen in de showroom in Amersfoort.",
     "intro": "Stadshaege werkt met bulthaup-systemen omdat ze rust, precisie, materiaalkeuze en persoonlijk maatwerk ondersteunen.",
     "body": "Stadshaege werkt met bulthaup-systemen omdat ze rust, precisie, materiaalkeuze en persoonlijk maatwerk ondersteunen."
   },
@@ -72,10 +72,57 @@ export const pages = {
     "intro": "We nemen graag de tijd voor uw keukenplan. Bel, mail of gebruik de route naar de showroom.",
     "body": "We nemen graag de tijd voor uw keukenplan. Bel, mail of gebruik de route naar de showroom."
   },
+  "extendo": {
+    "slug": "extendo",
+    "route": "/extendo/",
+    "title": "Extendo tafels en meubels",
+    "seoTitle": "Extendo | Tafels en meubels bij Stadshaege Keukendesign",
+    "description": "Ontdek Extendo tafels, stoelen en meubels bij Stadshaege Keukendesign in Amersfoort.",
+    "intro": "Stadshaege verkoopt naast bulthaup-keukens ook Extendo tafels, stoelen en meubels voor een complete woonkeuken.",
+    "gallery": [
+      {
+        "image": "/media/extendo/extendo-balance-tafel-marmer.jpg",
+        "title": "Extendo Balance tafel met marmer"
+      },
+      {
+        "image": "/media/extendo/extendo-balance-tafel-noten.jpg",
+        "title": "Extendo Balance tafel in noten"
+      },
+      {
+        "image": "/media/extendo/extendo-balance-tafel-wit.jpg",
+        "title": "Extendo Balance tafel in wit"
+      },
+      {
+        "image": "/media/extendo/extendo-danske-tafel-en-stoelen-eiken-1.jpg",
+        "title": "Extendo Danske tafel en stoelen in eiken"
+      },
+      {
+        "image": "/media/extendo/extendo-danske-tafel-en-stoelen-eiken-2.jpg",
+        "title": "Extendo Danske tafel en stoelen"
+      },
+      {
+        "image": "/media/extendo/extendo-st35-tafel-uittrekbaar.jpg",
+        "title": "Extendo ST35 uittrekbare tafel"
+      },
+      {
+        "image": "/media/extendo/extendo-stoel-en-tafel-noten-en-marmer.jpg",
+        "title": "Extendo stoel en tafel in noten en marmer"
+      },
+      {
+        "image": "/media/extendo/extendo-atelier-meubel.jpg",
+        "title": "Extendo Atelier meubel"
+      },
+      {
+        "image": "/media/extendo/extendo-atelier-tv-meubel.jpg",
+        "title": "Extendo Atelier tv-meubel"
+      }
+    ],
+    "body": "Extendo tafels en meubels maken de woonkeuken compleet met passende tafels, stoelen en meubels."
+  },
   "home": {
     "slug": "home",
     "route": "/",
-    "title": "Persoonlijk ontworpen bulthaup-keukens in Amersfoort",
+    "title": "Persoonlijk ontworpen keukens in Amersfoort",
     "seoTitle": "Stadshaege Keukendesign | Bulthaup keukens in Amersfoort",
     "description": "Persoonlijk ontworpen bulthaup-keukens op maat vanuit de showroom in Amersfoort.",
     "hero": {

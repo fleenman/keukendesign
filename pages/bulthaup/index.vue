@@ -11,13 +11,13 @@ useSeoMeta({
 
 const systemCards = [
   {
-    system: 'b1',
-    title: 'b1',
-    text: 'Eenvoudig, helder en functioneel. Geschikt wanneer rust en toegankelijkheid centraal staan.',
-    to: '/bulthaup/b1/',
-    link: 'Lees over b1',
-    image: projects.find((project) => project.system === 'b1')?.cover,
-    alt: 'Bulthaup b1 keuken met eiken natuur en eilandopstelling'
+    system: 'b3',
+    title: 'b3',
+    text: 'Het meest flexibele systeem voor wand, eiland, nissen en rijke materiaalkeuzes.',
+    to: '/bulthaup/b3/',
+    link: 'Lees over b3',
+    image: projects.find((project) => project.system === 'b3')?.cover,
+    alt: 'Bulthaup b3 keuken met maatwerk kastenwand en eiland'
   },
   {
     system: 'b2',
@@ -29,22 +29,13 @@ const systemCards = [
     alt: 'Bulthaup b2 keuken met werkbank en kastprincipe'
   },
   {
-    system: 'b3',
-    title: 'b3',
-    text: 'Het meest flexibele systeem voor wand, eiland, nissen en rijke materiaalkeuzes.',
-    to: '/bulthaup/b3/',
-    link: 'Lees over b3',
-    image: projects.find((project) => project.system === 'b3')?.cover,
-    alt: 'Bulthaup b3 keuken met maatwerk kastenwand en eiland'
-  },
-  {
     system: 'bm',
     title: 'bm',
-    text: 'bm brengt de keuken terug naar vrijstaande meubels in massief hout en roestvrij staal, met ruimte voor koken, opbergen en dagelijks gebruik.',
-    to: '/contact/',
-    link: 'Bespreek bm in de showroom',
-    image: '/media/projecten/bulthaup-b3-en-b2-kast-noten-1616x1077.jpg',
-    alt: 'Bulthaup showroomopstelling met eiland en open houten kast'
+    text: 'bm brengt rustige belijning, verfijnde materiaalcombinaties en dagelijkse bruikbaarheid samen in een nieuwe bulthaup-lijn.',
+    to: '/bulthaup/bm/',
+    link: 'Lees over bm',
+    image: projects.find((project) => project.system === 'bm')?.cover,
+    alt: 'Bulthaup bm keuken met verfijnde materialen'
   }
 ]
 </script>

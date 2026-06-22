@@ -56,7 +56,7 @@ useSeoMeta({
       <NuxtLink class="card project-card" to="/bulthaup/">
         <div class="card-body">
           <p class="meta-label">Bulthaup</p>
-          <h3>Begrijp b1, b2 en b3</h3>
+          <h3>Begrijp b3, b2 en bm</h3>
           <p>Zie hoe de systemen verschillen in toepassing, flexibiliteit en uitstraling.</p>
         </div>
       </NuxtLink>

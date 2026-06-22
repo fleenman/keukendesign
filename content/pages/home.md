@@ -1,7 +1,7 @@
 ---
 slug: home
 route: /
-title: Persoonlijk ontworpen bulthaup-keukens in Amersfoort
+title: Persoonlijk ontworpen keukens in Amersfoort
 seoTitle: Stadshaege Keukendesign | Bulthaup keukens in Amersfoort
 description: Persoonlijk ontworpen bulthaup-keukens op maat vanuit de showroom
   in Amersfoort.

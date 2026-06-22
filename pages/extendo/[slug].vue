@@ -2,17 +2,20 @@
 import { extendoProducts, findExtendoProduct } from '~/content/extendo-products.mjs'
 
 const route = useRoute()
-const product = computed(() => findExtendoProduct(route.params.slug))
+const product = computed(() => findExtendoProduct(Array.isArray(route.params.slug) ? route.params.slug[0] : route.params.slug))
 
 if (!product.value) {
   throw createError({ statusCode: 404, statusMessage: 'Product niet gevonden' })
 }
 
+const relatedProducts = computed(() => extendoProducts.filter((item) => item.slug !== product.value.slug))
+
 useSeoMeta({
-  title: () => `${product.value.title} | Extendo kastinrichting`,
+  title: () => `${product.value.title} | Extendo bij Stadshaege`,
   description: () => product.value.summary,
   ogTitle: () => product.value.title,
-  ogDescription: () => product.value.summary
+  ogDescription: () => product.value.summary,
+  ogImage: () => product.value.image
 })
 </script>
 
@@ -42,9 +45,18 @@ useSeoMeta({
     </div>
   </ContentSection>
 
+  <ContentSection v-if="product.gallery.length > 1" title="Foto's">
+    <div class="gallery-grid">
+      <figure v-for="item in product.gallery" :key="item.image" class="gallery-item">
+        <ResponsiveImage :src="item.image" :alt="item.title" />
+        <figcaption>{{ item.title }}</figcaption>
+      </figure>
+    </div>
+  </ContentSection>
+
   <ContentSection title="Andere Extendo producten">
     <div class="grid product-grid">
-      <NuxtLink v-for="item in extendoProducts.filter((item) => item.slug !== product.slug)" :key="item.slug" class="card product-card" :to="`/extendo/${item.slug}/`">
+      <NuxtLink v-for="item in relatedProducts" :key="item.slug" class="card product-card" :to="`/extendo/${item.slug}/`">
         <ResponsiveImage :src="item.image" :alt="item.alt" />
         <div class="product-card-body">
           <p class="eyebrow">{{ item.eyebrow }}</p>
@@ -55,7 +67,7 @@ useSeoMeta({
     </div>
   </ContentSection>
 
-  <ContentSection dark title="Neem Extendo mee in het keukenplan" text="We beoordelen per kast of een uitschuifplateau, houtdetail of Click Stop-vergrendeling praktisch en rustig genoeg is voor uw keuken.">
+  <ContentSection dark title="Bespreek Extendo met Stadshaege" text="We beoordelen per keukenplan welke tafel, stoelen of meubels passen bij de ruimte, materialen en dagelijkse routines.">
     <ContactActions />
   </ContentSection>
 </template>
