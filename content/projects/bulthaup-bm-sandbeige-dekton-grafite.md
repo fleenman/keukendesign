@@ -1,6 +1,6 @@
 ---
 order: 25
-title: Bulthaup bm sandbeige met Dekton Grafite blad
+title: bm sandbeige met Dekton Grafite blad
 slug: bulthaup-bm-sandbeige-dekton-grafite
 system: bm
 layout: wand en eiland

@@ -31,7 +31,7 @@ const systemCards = [
   {
     system: 'bm',
     title: 'bm',
-    text: 'bm brengt rustige belijning, verfijnde materiaalcombinaties en dagelijkse bruikbaarheid samen in een nieuwe bulthaup-lijn.',
+    text: 'bm brengt rustige belijning, verfijnde materiaalcombinaties en dagelijkse bruikbaarheid samen in een nieuwe bm lijn.',
     to: '/bulthaup/bm/',
     link: 'Lees over bm',
     image: projects.find((project) => project.system === 'bm')?.cover,

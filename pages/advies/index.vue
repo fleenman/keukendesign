@@ -26,9 +26,9 @@ useSeoMeta({ title: page.seoTitle, description: page.description })
 
   <ContentSection title="Adviesroutes">
     <div class="grid">
-      <NuxtLink class="panel" to="/advies/werkwijze/"><h3>Werkwijze</h3><p>Van oriëntatie tot ontwerp, calculatie, montage en nazorg.</p></NuxtLink>
-      <NuxtLink class="panel" to="/advies/afspraak-voorbereiden/"><h3>Afspraak voorbereiden</h3><p>Wat neemt u mee en welke vragen zijn nuttig?</p></NuxtLink>
-      <NuxtLink class="panel" to="/projecten/"><h3>Bekijk projecten</h3><p>Gebruik gerealiseerde keukens als referentie voor uw eigen plan.</p></NuxtLink>
+      <NuxtLink class="panel route-card" to="/advies/werkwijze/"><h3>Werkwijze</h3><p>Van oriëntatie tot ontwerp, calculatie, montage en nazorg.</p></NuxtLink>
+      <NuxtLink class="panel route-card" to="/advies/afspraak-voorbereiden/"><h3>Afspraak voorbereiden</h3><p>Wat neemt u mee en welke vragen zijn nuttig?</p></NuxtLink>
+      <NuxtLink class="panel route-card" to="/projecten/"><h3>Bekijk projecten</h3><p>Gebruik gerealiseerde keukens als referentie voor uw eigen plan.</p></NuxtLink>
     </div>
   </ContentSection>
   <ContentSection dark title="Plan een adviesgesprek"><ContactActions /></ContentSection>

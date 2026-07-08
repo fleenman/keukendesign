@@ -20,6 +20,7 @@ const legalLinks = computed(() => props.site.footerGroups.find((group) => group.
           {{ site.contact.streetAddress }}<br>
           {{ site.contact.postalCode }} {{ site.contact.city }}<br>
           <a :href="`tel:${site.contact.phone.replaceAll('-', '')}`">{{ site.contact.phone }}</a><br>
+          <a :href="`tel:${site.contact.mobile.replaceAll('-', '')}`">{{ site.contact.mobile }}</a><br>
           <a :href="`mailto:${site.contact.email}`">{{ site.contact.email }}</a>
         </p>
       </div>

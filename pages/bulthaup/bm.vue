@@ -15,7 +15,7 @@ useSeoMeta({ title: page.seoTitle, description: page.description })
       <ResponsiveImage v-if="heroProject" :src="heroProject.cover" :alt="heroProject.title" loading="eager" />
       <div class="grid contact-detail-grid">
         <div class="panel"><h3>Nieuwe lijn</h3><p>bm is geschikt voor rustige keukencomposities met verfijnde fronten, werkbladen en houtaccenten.</p></div>
-        <div class="panel"><h3>Materialen</h3><p>Bekijk combinaties zoals alux champagne met noten en sandbeige met Dekton Grafite.</p></div>
+        <div class="panel"><h3>Materialen</h3><p>Bekijk combinaties zoals alux champagne met noten en sandbeige met Silestone Blanc Elysee.</p></div>
       </div>
     </div>
   </ContentSection>

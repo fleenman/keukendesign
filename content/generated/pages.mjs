@@ -48,11 +48,11 @@ export const pages = {
   "bulthaup-bm": {
     "slug": "bulthaup-bm",
     "route": "/bulthaup/bm/",
-    "title": "Bulthaup bm",
+    "title": "bm keukens",
     "seoTitle": "Bulthaup bm | Stadshaege Keukendesign",
     "description": "Bulthaup bm als nieuwe lijn met verfijnde materialen, rustige belijning en persoonlijke combinaties.",
-    "intro": "bm brengt rustige belijning, verfijnde materiaalcombinaties en dagelijkse bruikbaarheid samen in een nieuwe bulthaup-lijn.",
-    "body": "bm brengt rustige belijning, verfijnde materiaalcombinaties en dagelijkse bruikbaarheid samen in een nieuwe bulthaup-lijn."
+    "intro": "bm brengt rustige belijning, verfijnde materiaalcombinaties en dagelijkse bruikbaarheid samen in een nieuwe lijn.",
+    "body": "bm brengt rustige belijning, verfijnde materiaalcombinaties en dagelijkse bruikbaarheid samen in een nieuwe lijn."
   },
   "bulthaup": {
     "slug": "bulthaup",
@@ -127,7 +127,7 @@ export const pages = {
     "description": "Persoonlijk ontworpen bulthaup-keukens op maat vanuit de showroom in Amersfoort.",
     "hero": {
       "eyebrow": "Sinds 1998 in Amersfoort",
-      "text": "Stadshaege ontwerpt bulthaup-keukens op maat vanuit woning, kookgedrag en dagelijks gebruik. Rustig, precies en persoonlijk begeleid door Filip Leenman.",
+      "text": "Stadshaege ontwerpt bulthaup keukens op maat vanuit woning, kookgedrag en dagelijks gebruik. Rustig, precies en persoonlijk begeleid door Filip Leenman.",
       "image": "/media/showroom/showroom-4-1616x1212.jpg"
     },
     "body": "Persoonlijk ontworpen bulthaup-keukens op maat vanuit de showroom in Amersfoort."
@@ -174,7 +174,7 @@ export const pages = {
     "title": "Ervaar bulthaup in Amersfoort",
     "seoTitle": "Showroom Amersfoort | Stadshaege Keukendesign",
     "description": "Bezoek de bulthaup-showroom van Stadshaege aan de Grote Haag 15 in Amersfoort.",
-    "intro": "Materialen, systemen en afwerking worden pas echt duidelijk wanneer u ze ziet en aanraakt. De showroom is gevestigd aan de Grote Haag in het gebouw Stadshaege.",
-    "body": "Materialen, systemen en afwerking worden pas echt duidelijk wanneer u ze ziet en aanraakt. De showroom is gevestigd aan de Grote Haag in het gebouw Stadshaege."
+    "intro": "Materialen, systemen en afwerking worden pas echt duidelijk wanneer u ze ziet en aanraakt. De showroom is gevestigd aan de Grote Haag in het gebouw Stadshaege. Wij leveren tevens keukenapparatuur van Miele, Siemens, Atag, Gaggenau, Bora, Quooker en nog meer.",
+    "body": "Materialen, systemen en afwerking worden pas echt duidelijk wanneer u ze ziet en aanraakt. De showroom is gevestigd aan de Grote Haag in het gebouw Stadshaege. Wij leveren tevens keukenapparatuur van Miele, Siemens, Atag, Gaggenau, Bora, Quooker en nog meer."
   }
 }

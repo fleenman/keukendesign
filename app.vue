@@ -3,7 +3,7 @@ const assetPath = useAssetPath()
 
 useHead({
   link: [
-    { rel: 'icon', href: assetPath('/favicon.ico') },
+    { rel: 'icon', href: assetPath('/favicon.svg'), type: 'image/svg+xml' },
     {
       rel: 'preload',
       href: assetPath('/fonts/rotissemisansstd-webfont.woff'),

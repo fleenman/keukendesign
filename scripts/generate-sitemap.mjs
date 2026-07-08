@@ -23,12 +23,30 @@ const routes = [
   ...projects.map((project) => `/projecten/${project.slug}/`)
 ]
 
-const today = new Date().toISOString().slice(0, 10)
+const imagesByRoute = new Map([
+  ['/', ['/media/showroom/showroom-4-1616x1212.jpg']],
+  ['/showroom/', ['/media/showroom/showroom-4-1616x1212.jpg']],
+  ...extendoProducts.map((product) => [
+    `/extendo/${product.slug}/`,
+    product.gallery.map((item) => item.image)
+  ]),
+  ...projects.map((project) => [`/projecten/${project.slug}/`, project.gallery])
+])
+
+function escapeXml(value) {
+  return String(value)
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+    .replaceAll("'", '&apos;')
+}
+
 const xml = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 ${routes.map((route) => `  <url>
-    <loc>${site.canonicalUrl}${route}</loc>
-    <lastmod>${today}</lastmod>
+    <loc>${escapeXml(`${site.canonicalUrl}${route}`)}</loc>${(imagesByRoute.get(route) || []).map((image) => `
+    <image:image><image:loc>${escapeXml(`${site.canonicalUrl}${image}`)}</image:loc></image:image>`).join('')}
   </url>`).join('\n')}
 </urlset>
 `

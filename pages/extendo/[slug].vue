@@ -1,5 +1,6 @@
 <script setup>
 import { extendoProducts, findExtendoProduct } from '~/content/extendo-products.mjs'
+import { site } from '~/content/site.mjs'
 
 const route = useRoute()
 const product = computed(() => findExtendoProduct(Array.isArray(route.params.slug) ? route.params.slug[0] : route.params.slug))
@@ -15,11 +16,65 @@ useSeoMeta({
   description: () => product.value.summary,
   ogTitle: () => product.value.title,
   ogDescription: () => product.value.summary,
-  ogImage: () => product.value.image
+  ogImage: () => new URL(product.value.image, site.canonicalUrl).toString(),
+  ogImageAlt: () => product.value.alt,
+  twitterImage: () => new URL(product.value.image, site.canonicalUrl).toString()
 })
+
+const productUrl = computed(() => new URL(`/extendo/${product.value.slug}/`, site.canonicalUrl).toString())
+const productImages = computed(() => product.value.gallery.map((item, index) => ({
+  '@type': 'ImageObject',
+  '@id': `${productUrl.value}#image-${index + 1}`,
+  url: new URL(item.image, site.canonicalUrl).toString(),
+  contentUrl: new URL(item.image, site.canonicalUrl).toString(),
+  caption: item.title,
+  representativeOfPage: index === 0
+})))
+const productStructuredData = computed(() => ({
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Product',
+      '@id': `${productUrl.value}#product`,
+      url: productUrl.value,
+      name: product.value.title,
+      description: product.value.summary,
+      brand: {
+        '@type': 'Brand',
+        name: 'Extendo'
+      },
+      category: product.value.eyebrow,
+      image: productImages.value,
+      additionalProperty: [
+        ...product.value.uses.map((use) => ({
+          '@type': 'PropertyValue',
+          name: 'Past bij',
+          value: use
+        })),
+        ...product.value.details.map((detail) => ({
+          '@type': 'PropertyValue',
+          name: 'Ontwerpnotitie',
+          value: detail
+        }))
+      ],
+      provider: { '@id': `${site.canonicalUrl}/#business` }
+    },
+    {
+      '@type': 'ImageGallery',
+      '@id': `${productUrl.value}#gallery`,
+      url: productUrl.value,
+      name: `Fotogalerij ${product.value.title}`,
+      image: productImages.value,
+      about: { '@id': `${productUrl.value}#product` },
+      publisher: { '@id': `${site.canonicalUrl}/#business` }
+    }
+  ]
+}))
 </script>
 
 <template>
+  <SeoJsonLd :graph="productStructuredData" />
+
   <ContentSection
     :breadcrumbs="[{ label: 'Home', to: '/' }, { label: 'Extendo', to: '/extendo/' }, { label: product.title }]"
     :eyebrow="product.eyebrow"

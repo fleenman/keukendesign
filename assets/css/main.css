@@ -462,6 +462,7 @@ p {
   gap: 0;
   overflow: hidden;
   padding: 0;
+  text-decoration: none;
 }
 
 .product-card img {
@@ -774,6 +775,15 @@ body.is-lightbox-open {
   padding: clamp(1rem, 3vw, 2rem);
 }
 
+.route-card {
+  text-decoration: none;
+}
+
+.project-more-link {
+  margin: -1rem 0 2rem;
+  color: var(--color-muted);
+}
+
 .system-card {
   display: grid;
   align-content: start;
@@ -834,6 +844,39 @@ body.is-lightbox-open {
   min-height: 54px;
 }
 
+.social-links {
+  display: flex;
+  gap: 0.65rem;
+  margin-top: 1.25rem;
+}
+
+.social-links a {
+  display: inline-grid;
+  place-items: center;
+  width: 2.65rem;
+  height: 2.65rem;
+  border: 1px solid var(--color-line);
+  border-radius: 999px;
+  background: var(--color-paper);
+  color: var(--color-accent-dark);
+  text-decoration: none;
+  transition: transform 160ms ease, background-color 160ms ease, color 160ms ease, box-shadow 160ms ease;
+}
+
+.social-links a:hover,
+.social-links a:focus-visible {
+  transform: translateY(-1px);
+  background: var(--color-accent-dark);
+  color: #fff;
+  box-shadow: var(--shadow);
+}
+
+.social-links svg {
+  width: 1.35rem;
+  height: 1.35rem;
+  fill: currentColor;
+}
+
 .site-footer {
   background: var(--color-dark);
   color: white;
@@ -843,6 +886,14 @@ body.is-lightbox-open {
 .site-footer p,
 .site-footer a {
   color: #d9d4ca;
+}
+
+.site-footer a {
+  text-decoration: none;
+}
+
+.site-footer .brand span {
+  color: inherit;
 }
 
 .footer-grid {

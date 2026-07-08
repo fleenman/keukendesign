@@ -1,235 +1,339 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://www.keukendesign.nl/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/showroom/showroom-4-1616x1212.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/advies/</loc>
-    <lastmod>2026-06-22</lastmod>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/advies/afspraak-voorbereiden/</loc>
-    <lastmod>2026-06-22</lastmod>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/advies/werkwijze/</loc>
-    <lastmod>2026-06-22</lastmod>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/bulthaup/</loc>
-    <lastmod>2026-06-22</lastmod>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/bulthaup/b3/</loc>
-    <lastmod>2026-06-22</lastmod>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/bulthaup/b2/</loc>
-    <lastmod>2026-06-22</lastmod>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/bulthaup/bm/</loc>
-    <lastmod>2026-06-22</lastmod>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/contact/</loc>
-    <lastmod>2026-06-22</lastmod>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/extendo/</loc>
-    <lastmod>2026-06-22</lastmod>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/extendo/balance/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/extendo/extendo-balance-tafel-marmer.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/extendo/extendo-balance-tafel-noten.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/extendo/extendo-balance-tafel-wit.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/extendo/extendo-stoel-en-tafel-noten-en-marmer.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/extendo/danske/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/extendo/extendo-danske-tafel-en-stoelen-eiken-1.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/extendo/extendo-danske-tafel-en-stoelen-eiken-2.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/extendo/st35/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/extendo/extendo-st35-tafel-uittrekbaar.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/extendo/atelier/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/extendo/extendo-atelier-meubel.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/extendo/extendo-atelier-tv-meubel.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/keukens-amersfoort/</loc>
-    <lastmod>2026-06-22</lastmod>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/privacy/</loc>
-    <lastmod>2026-06-22</lastmod>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/</loc>
-    <lastmod>2026-06-22</lastmod>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/showroom/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/showroom/showroom-4-1616x1212.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/showroom/route-en-parkeren/</loc>
-    <lastmod>2026-06-22</lastmod>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-noten-kiezel-tv-meubel/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/MG__1374-HDR-scaled.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/MG__1312-scaled.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/BRS7773.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/BRS7779.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/MG__1047-HDR-scaled.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/MG__1030-scaled.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-kaolin-flint/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kaolin-flint-blad-1-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kaolin-flint-blad-3-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kaolin-flint-blad-4-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/b3-kaolin-met-flint-1-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/b3-kaolin-met-flint-2-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/b3-kaolin-met-flint-3-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/b3-kaolin-met-flint-4-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/b3-kaolin-met-flint-5-1616x1077.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-wit-noten-dekton/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/MG_9941-HDR.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/MG_9866-HDR.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/MG_9882.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-wit-marmer/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-wit-met-marmer-2-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-wit-met-marmer-3-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-wit-met-marmer-1616x1077.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-kaolin-aluminium-schiereiland/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/b3-eiland-kaolin-blad-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/b3-aluminium-met-kaolin-schiereiland-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-alulinium-grijs-met-miele-1616x1077.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-eiken-natuur/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/b3-bulthaup-eiken-natuur-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/b3-bulthaup-eiken-natuur-4-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/b3-bulthaup-eiken-natuur-2-1616x1077.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-dekton-ahorn/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-dekton-blad-ahorn-kast-2-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-dekton-blad-ahorn-kast-3-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-dekton-blad-ahorn-kast-4-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-dekton-blad-ahorn-kast-1-1616x1077.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-eiken-natuur-antraciet/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-eiken-natuur-antraciet-4-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-eiken-natuur-antraciet-1-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-eiken-natuur-antraciet-2-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-eiken-natuur-antraciet-3-1616x1077.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-wit-eiken/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-wit-eiken-1-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-wit-eiken-3-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-wit-eiken-4-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-wit-eiken-5-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-wit-eiken-2-1616x1077.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-eiland-zitbar-bora-wijnkast/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/DSC5310-1-1616x1079.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/DSC5323-1-1616x1079.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/DSC5340-1-1616x1079.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/DSC5313-1-1616x1079.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-hogekast-nis-bora-professional/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/DSC4362-1616x1079.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/DSC4356-1616x1079.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-aluminium-donker-noten-bar/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-alu-donker-noten-bar-1.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-alu-donker-noten-bar-5.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-donker-aluminium-kookeiland/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/Amersfoort-2015-ref02-_ROB7414.png</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/Amersfoort-2015-ref02-_ROB7421.png</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/Amersfoort-2015-ref02-_ROB7429.png</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/Amersfoort-2015-ref02-_ROB7431.png</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/Amersfoort-2015-ref01-7391-1616x1077.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-huizen/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-huizen-1616x1077.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-zwart-eiken-bar/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/b3-eiland-wit-hoekbar-zwart-eiken-1-LR-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/b3-eiland-wit-hoekbar-zwart-eiken-3-LR-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/b3-eiland-wit-hoekbar-zwart-eiken-5-LR-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/b3-eiland-wit-hoekbar-zwart-eiken-6-LR-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/b3-eiland-hogekast-zwart-eiken-2-LR-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/b3-eiland-hogekast-zwart-eiken-3-LR-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-zwart-eiken-kast-bar-1616x1077.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-eiland-wit/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-eiland-wit-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-eiland-wit-4-1616x1077.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-grafiet-bora-classic/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/Keukendesign_bulthaup-b3-grafiet-5-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-eiland-bora-classic-4-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-eiland-bora-classic-3-1616x1077.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-baarn/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/KeukenDesign_Baarn_MG_0886-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/KeukenDesign_Baarn_MG_0855-1616x1077.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-aluminium-kaolin-noten-bar/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-aluminium-kaolin-noten-bar-3-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-aluminium-kaolin-noten-bar-2-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-aluminium-kaolin-noten-bar-4-1616x1077.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-kiezel-grijs-blad/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/kiezel-met-grijs-blad-1-scaled.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/kiezel-met-grijs-blad-4-scaled.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/kiezel-met-grijs-blad-3-scaled.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/kiezel-met-grijs-blad-2-scaled.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-noten-kaolin/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/b3-met-noten-en-kaolin-1-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/b3-met-noten-en-kaolin-4-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/b3-met-noten-en-kaolin-3-1616x1077.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-flint-kiezel/</loc>
-    <lastmod>2026-06-22</lastmod>
-  </url>
-  <url>
-    <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-kiezel-graniet-noten/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-flint-met-kiezel-3.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-flint-met-kiezel-1.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-flint-met-kiezel-1-2.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-flint-met-kiezel-4.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-bm-alux-champagne-noten-blanc-elysee/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bm-keuken-alux-champagne-noten-blanc-elysee-blad-1.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bm-keuken-alux-champagne-noten-blanc-elysee-blad-2.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bm-keuken-alux-champagne-noten-blanc-elysee-blad-3.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bm-keuken-alux-champagne-noten-blanc-elysee-blad-4.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bm-keuken-alux-champagne-noten-blanc-elysee-blad-5.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bm-keuken-alux-champagne-noten-blanc-elysee-blad-6.jpg</image:loc></image:image>
   </url>
   <url>
-    <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-zwart-eiken-kaolin-rvs/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-kiezel-graniet-noten/</loc>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kiezel-met-graniet-blad-en-noten-4-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kiezel-met-graniet-blad-en-noten-2-1616x1077.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-bm-sandbeige-dekton-grafite/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bm-keuken-sandbeige-met-dekton-grafite-blad-1.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bm-keuken-sandbeige-met-dekton-grafite-blad-2.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bm-keuken-sandbeige-met-dekton-grafite-blad-3.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bm-keuken-sandbeige-met-dekton-grafite-blad-4.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-zwart-eiken-kaolin-rvs/</loc>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-zwart-eiken-met-kaolin-en-rvs-blad-1-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-zwart-eiken-met-kaolin-en-rvs-blad-3-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-zwart-eiken-met-kaolin-en-rvs-blad-2-1616x1077.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-kiezel-flint-rvs/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/Kiezel-en-Flint-bulthaup-met-rvs-blad-1-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/Kiezel-en-Flint-bulthaup-met-rvs-blad-4-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/Kiezel-en-Flint-bulthaup-met-rvs-blad-2-1616x1077.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b2-dekton-grijs-essen/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b2-werkbank.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b2-werkkast-open.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b2-werkkast.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-alpine-wit-visgraatvloer/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/3-alpine-wit-op-houten-visgraat-vloer-4-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/3-alpine-wit-op-houten-visgraat-vloer-3-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/3-alpine-wit-op-houten-visgraat-vloer-2-1616x1077.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/3-alpine-wit-op-houten-visgraat-vloer-1-1616x1077.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-alpine-wit-dekton-eter-eiland/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-alpine-wit-met-dekton-eter-eiland-werkblad-1-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-alpine-wit-met-dekton-eter-eiland-werkblad-1-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-alpine-wit-met-dekton-eter-eiland-werkblad-1-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-alpine-wit-met-dekton-eter-eiland-werkblad-1-04.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-alpine-wit-met-dekton-eter-eiland-werkblad-1-05.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-alpine-wit-met-dekton-eter-eiland-werkblad-1-06.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-kiezel-wandkasten-kookeiland/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/DSC_8369-1616x1075.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/DSC_8362-1616x1075.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-greeploos-eiken-zwart-bruin-miami-vena/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-greeploos-eiken-zwart-bruin-met-miami-vena-werkblad-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-greeploos-eiken-zwart-bruin-met-miami-vena-werkblad-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-greeploos-eiken-zwart-bruin-met-miami-vena-werkblad-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-greeploos-eiken-zwart-bruin-met-miami-vena-werkblad-04.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-greeploos-eiken-zwart-bruin-met-miami-vena-werkblad-05.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-zwart-eiken-marmer-composiet/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/BRS7817.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/BRS7816.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-kaolin-u-opstelling-eiken-barblad/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kaolin-u-opstelling-eiken-barblad-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kaolin-u-opstelling-eiken-barblad-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kaolin-u-opstelling-eiken-barblad-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kaolin-u-opstelling-eiken-barblad-04.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-kaolin-flint-kookeiland-zitoverstek/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kaolin-met-flint-kookeiland-met-zit-overstek-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kaolin-met-flint-kookeiland-met-zit-overstek-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kaolin-met-flint-kookeiland-met-zit-overstek-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kaolin-met-flint-kookeiland-met-zit-overstek-04.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kaolin-met-flint-kookeiland-met-zit-overstek-05.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-kiezel-flint-dekton-pietra/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kiezel-en-flint-met-dekton-pietra-blad-1-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kiezel-en-flint-met-dekton-pietra-blad-1-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kiezel-en-flint-met-dekton-pietra-blad-1-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kiezel-en-flint-met-dekton-pietra-blad-1-04.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kiezel-en-flint-met-dekton-pietra-blad-1-05.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kiezel-en-flint-met-dekton-pietra-blad-1-06.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-kiezel-dekton-pietra-extendo-tafel/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kiezel-met-dekton-pietra-werkblad-en-extendo-tafel-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kiezel-met-dekton-pietra-werkblad-en-extendo-tafel-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kiezel-met-dekton-pietra-werkblad-en-extendo-tafel-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kiezel-met-dekton-pietra-werkblad-en-extendo-tafel-04.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-kiezel-noten-coral-clay/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kiezel-met-noten-fineer-coral-clay-werkblad-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kiezel-met-noten-fineer-coral-clay-werkblad-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kiezel-met-noten-fineer-coral-clay-werkblad-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kiezel-met-noten-fineer-coral-clay-werkblad-04.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kiezel-met-noten-fineer-coral-clay-werkblad-05.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-zwart-grijs-eiken-silestone-nolita/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-zwart-grijs-eiken-struktuur-silestone-nolita-werkblad-01.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-zwart-grijs-eiken-struktuur-silestone-nolita-werkblad-02.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-zwart-grijs-eiken-struktuur-silestone-nolita-werkblad-03.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-zwart-grijs-eiken-struktuur-silestone-nolita-werkblad-04.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-zwart-grijs-eiken-struktuur-silestone-nolita-werkblad-05.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-zwart-grijs-eiken-struktuur-silestone-nolita-werkblad-06.jpg</image:loc></image:image>
   </url>
 </urlset>

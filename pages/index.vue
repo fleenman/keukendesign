@@ -11,26 +11,13 @@ useSeoMeta({
   description: page.description,
   ogTitle: 'Stadshaege Keukendesign',
   ogDescription: page.description,
-  ogImage: page.hero.image
+  ogImage: new URL(page.hero.image, site.canonicalUrl).toString(),
+  ogImageAlt: 'Bulthaup showroomkeuken van Stadshaege Keukendesign',
+  twitterImage: new URL(page.hero.image, site.canonicalUrl).toString()
 })
 </script>
 
 <template>
-  <SeoJsonLd :graph="{
-    '@context': 'https://schema.org',
-    '@type': 'Store',
-    name: site.contact.name,
-    url: site.canonicalUrl,
-    telephone: site.contact.phone,
-    address: {
-      '@type': 'PostalAddress',
-      streetAddress: site.contact.streetAddress,
-      postalCode: site.contact.postalCode,
-      addressLocality: site.contact.city,
-      addressCountry: 'NL'
-    }
-  }" />
-
   <section class="hero home-hero">
     <ResponsiveImage :src="page.hero.image" alt="Bulthaup showroomkeuken van Stadshaege Keukendesign" loading="eager" />
     <div class="hero-content">

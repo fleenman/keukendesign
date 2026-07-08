@@ -15,6 +15,10 @@ useSeoMeta({
 
 <template>
   <ContentSection :breadcrumbs="[{ label: 'Home', to: '/' }, { label: 'Projecten' }]" :title="page.title" :text="page.intro">
+    <p class="project-more-link">
+      Voor meer binnenkijk projecten bij klanten thuis zie ook:
+      <a href="https://www.stadshaege.nl/binnenkijken" target="_blank" rel="noopener noreferrer">stadshaege.nl/binnenkijken</a>
+    </p>
     <ProjectFilters :projects="projects" @update="visibleProjects = $event" />
     <div class="grid project-grid" style="margin-top:2rem">
       <ProjectCard v-for="project in visibleProjects" :key="project.slug" :project="project" />

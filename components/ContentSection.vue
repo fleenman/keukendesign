@@ -15,7 +15,7 @@ defineProps({
       <div class="section-heading" :class="{ 'is-wide': headingWide }">
         <BreadcrumbTrail v-if="breadcrumbs.length" :items="breadcrumbs" />
         <p v-else-if="eyebrow" class="eyebrow">{{ eyebrow }}</p>
-        <h2>{{ title }}</h2>
+        <component :is="breadcrumbs.length ? 'h1' : 'h2'">{{ title }}</component>
         <p v-if="text">{{ text }}</p>
       </div>
       <slot />

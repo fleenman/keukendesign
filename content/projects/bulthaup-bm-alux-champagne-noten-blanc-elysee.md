@@ -1,6 +1,6 @@
 ---
 order: 24
-title: Bulthaup bm alux champagne met noten en Blanc Elysee blad
+title: bm alux champagne met noten en Blanc Elysee blad
 slug: bulthaup-bm-alux-champagne-noten-blanc-elysee
 system: bm
 layout: wand en eiland

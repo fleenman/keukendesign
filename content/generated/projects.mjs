@@ -530,30 +530,7 @@ export const projects = [
     ]
   },
   {
-    "title": "Bulthaup b3 kiezel met graniet blad en noten",
-    "slug": "bulthaup-b3-kiezel-graniet-noten",
-    "system": "b3",
-    "layout": "wand en werkblad",
-    "materials": [
-      "kiezel",
-      "graniet",
-      "noten"
-    ],
-    "appliances": [],
-    "region": "Amersfoort en omgeving",
-    "summary": "Een b3-keuken waarin kiezel, graniet en noten een rustig en tactiel geheel vormen.",
-    "question": "Hoe wordt deze keukenopstelling rustig, bruikbaar en passend bij de woning?",
-    "challenge": "De opstelling moest materiaal, bergruimte, looplijnen en dagelijks gebruik in balans brengen.",
-    "solution": "De bulthaup-systeemopbouw houdt de lijnen rustig en laat materiaal, werkblad en opstelling de ruimte bepalen.",
-    "body": "Een b3-keuken waarin kiezel, graniet en noten een rustig en tactiel geheel vormen.",
-    "cover": "/media/projecten/bulthaup-b3-kiezel-met-graniet-blad-en-noten-4-1616x1077.jpg",
-    "gallery": [
-      "/media/projecten/bulthaup-b3-kiezel-met-graniet-blad-en-noten-4-1616x1077.jpg",
-      "/media/projecten/bulthaup-b3-kiezel-met-graniet-blad-en-noten-2-1616x1077.jpg"
-    ]
-  },
-  {
-    "title": "Bulthaup bm alux champagne met noten en Blanc Elysee blad",
+    "title": "bm alux champagne met noten en Blanc Elysee blad",
     "slug": "bulthaup-bm-alux-champagne-noten-blanc-elysee",
     "system": "bm",
     "layout": "wand en eiland",
@@ -580,6 +557,53 @@ export const projects = [
     ]
   },
   {
+    "title": "Bulthaup b3 kiezel met graniet blad en noten",
+    "slug": "bulthaup-b3-kiezel-graniet-noten",
+    "system": "b3",
+    "layout": "wand en werkblad",
+    "materials": [
+      "kiezel",
+      "graniet",
+      "noten"
+    ],
+    "appliances": [],
+    "region": "Amersfoort en omgeving",
+    "summary": "Een b3-keuken waarin kiezel, graniet en noten een rustig en tactiel geheel vormen.",
+    "question": "Hoe wordt deze keukenopstelling rustig, bruikbaar en passend bij de woning?",
+    "challenge": "De opstelling moest materiaal, bergruimte, looplijnen en dagelijks gebruik in balans brengen.",
+    "solution": "De bulthaup-systeemopbouw houdt de lijnen rustig en laat materiaal, werkblad en opstelling de ruimte bepalen.",
+    "body": "Een b3-keuken waarin kiezel, graniet en noten een rustig en tactiel geheel vormen.",
+    "cover": "/media/projecten/bulthaup-b3-kiezel-met-graniet-blad-en-noten-4-1616x1077.jpg",
+    "gallery": [
+      "/media/projecten/bulthaup-b3-kiezel-met-graniet-blad-en-noten-4-1616x1077.jpg",
+      "/media/projecten/bulthaup-b3-kiezel-met-graniet-blad-en-noten-2-1616x1077.jpg"
+    ]
+  },
+  {
+    "title": "bm sandbeige met Dekton Grafite blad",
+    "slug": "bulthaup-bm-sandbeige-dekton-grafite",
+    "system": "bm",
+    "layout": "wand en eiland",
+    "materials": [
+      "sandbeige",
+      "Dekton Grafite"
+    ],
+    "appliances": [],
+    "region": "Amersfoort en omgeving",
+    "summary": "Een bm-keuken in sandbeige met een Dekton Grafite blad.",
+    "question": "Hoe krijgt een rustige lichte keuken voldoende diepte en contrast?",
+    "challenge": "De lichte frontkleur vroeg om een werkblad dat nuance toevoegt zonder zwaar te worden.",
+    "solution": "Sandbeige fronten en Dekton Grafite zorgen samen voor een ingetogen, bruikbare compositie.",
+    "body": "Een bm-keuken in sandbeige met een Dekton Grafite blad.",
+    "cover": "/media/projecten/bm-keuken-sandbeige-met-dekton-grafite-blad-1.jpg",
+    "gallery": [
+      "/media/projecten/bm-keuken-sandbeige-met-dekton-grafite-blad-1.jpg",
+      "/media/projecten/bm-keuken-sandbeige-met-dekton-grafite-blad-2.jpg",
+      "/media/projecten/bm-keuken-sandbeige-met-dekton-grafite-blad-3.jpg",
+      "/media/projecten/bm-keuken-sandbeige-met-dekton-grafite-blad-4.jpg"
+    ]
+  },
+  {
     "title": "Bulthaup b3 zwart eiken met kaolin en rvs blad",
     "slug": "bulthaup-b3-zwart-eiken-kaolin-rvs",
     "system": "b3",
@@ -601,30 +625,6 @@ export const projects = [
       "/media/projecten/bulthaup-b3-zwart-eiken-met-kaolin-en-rvs-blad-1-1616x1077.jpg",
       "/media/projecten/bulthaup-b3-zwart-eiken-met-kaolin-en-rvs-blad-3-1616x1077.jpg",
       "/media/projecten/bulthaup-b3-zwart-eiken-met-kaolin-en-rvs-blad-2-1616x1077.jpg"
-    ]
-  },
-  {
-    "title": "Bulthaup bm sandbeige met Dekton Grafite blad",
-    "slug": "bulthaup-bm-sandbeige-dekton-grafite",
-    "system": "bm",
-    "layout": "wand en eiland",
-    "materials": [
-      "sandbeige",
-      "Dekton Grafite"
-    ],
-    "appliances": [],
-    "region": "Amersfoort en omgeving",
-    "summary": "Een bm-keuken in sandbeige met een Dekton Grafite blad.",
-    "question": "Hoe krijgt een rustige lichte keuken voldoende diepte en contrast?",
-    "challenge": "De lichte frontkleur vroeg om een werkblad dat nuance toevoegt zonder zwaar te worden.",
-    "solution": "Sandbeige fronten en Dekton Grafite zorgen samen voor een ingetogen, bruikbare compositie.",
-    "body": "Een bm-keuken in sandbeige met een Dekton Grafite blad.",
-    "cover": "/media/projecten/bm-keuken-sandbeige-met-dekton-grafite-blad-1.jpg",
-    "gallery": [
-      "/media/projecten/bm-keuken-sandbeige-met-dekton-grafite-blad-1.jpg",
-      "/media/projecten/bm-keuken-sandbeige-met-dekton-grafite-blad-2.jpg",
-      "/media/projecten/bm-keuken-sandbeige-met-dekton-grafite-blad-3.jpg",
-      "/media/projecten/bm-keuken-sandbeige-met-dekton-grafite-blad-4.jpg"
     ]
   },
   {
