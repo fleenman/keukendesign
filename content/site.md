@@ -44,7 +44,7 @@ footerGroups:
         to: /bulthaup/b3/
       - label: Bulthaup b2
         to: /bulthaup/b2/
-      - label: Bulthaup bm
+      - label: Bm keukens
         to: /bulthaup/bm/
       - label: Extendo tafels en meubels
         to: /extendo/

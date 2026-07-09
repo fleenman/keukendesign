@@ -77,7 +77,7 @@ export const site = {
           "to": "/bulthaup/b2/"
         },
         {
-          "label": "Bulthaup bm",
+          "label": "Bm keukens",
           "to": "/bulthaup/bm/"
         },
         {

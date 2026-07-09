@@ -23,6 +23,16 @@ const legalLinks = computed(() => props.site.footerGroups.find((group) => group.
           <a :href="`tel:${site.contact.mobile.replaceAll('-', '')}`">{{ site.contact.mobile }}</a><br>
           <a :href="`mailto:${site.contact.email}`">{{ site.contact.email }}</a>
         </p>
+        <a
+          class="footer-review-link"
+          href="https://www.google.com/maps/place/bulthaup+Amersfoort/@52.1527006,5.3879926,672m/data=!3m1!1e3!4m14!1m7!3m6!1s0x47c644201273c4e5:0x16b85dfea2512ff2!2sbulthaup+Amersfoort!8m2!3d52.1527006!4d5.3879926!16s%2Fg%2F1tfllm_b!3m5!1s0x47c644201273c4e5:0x16b85dfea2512ff2!8m2!3d52.1527006!4d5.3879926!16s%2Fg%2F1tfllm_b?entry=ttu&amp;g_ep=EgoyMDI2MDcwNi4wIKXMDSoASAFQAw%3D%3D"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Reviews van tevreden klanten op Google Maps bekijken"
+        >
+          <span aria-hidden="true">★★★★★</span>
+          Reviews van tevreden klanten
+        </a>
       </div>
 
       <div v-for="group in mainFooterGroups" :key="group.title">
