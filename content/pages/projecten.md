@@ -1,11 +1,11 @@
 ---
 slug: projecten
 route: /projecten/
-title: Gerealiseerde bulthaup-keukens
-seoTitle: Projecten | Gerealiseerde bulthaup-keukens
-description: Bekijk geselecteerde bulthaup-projecten van Stadshaege Keukendesign
-  met filters op systeem, opstelling en materiaal.
-intro: Ontdek welke opstellingen, materialen en bulthaup-systemen passen bij uw
+title: keukeninspiratie gerealiseerde projecten
+seoTitle: Projecten | keukeninspiratie gerealiseerde projecten
+description: Bekijk keukeninspiratie en gerealiseerde design keukens van
+  Stadshaege Keukendesign met filters op opstelling, materiaal en kleur.
+intro: Ontdek welke opstellingen, materialen en kleuren passen bij uw
   eigen woonruimte.
 ---
-Ontdek welke opstellingen, materialen en bulthaup-systemen passen bij uw eigen woonruimte.
+Ontdek welke opstellingen, materialen en kleuren passen bij uw eigen woonruimte.

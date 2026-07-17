@@ -1,10 +1,11 @@
 ---
 slug: keukens-amersfoort
 route: /keukens-amersfoort/
-title: Bulthaup-keukens op maat vanuit Amersfoort
+title: Keukens op maat vanuit Amersfoort
 seoTitle: Keukens Amersfoort | Stadshaege Keukendesign
-description: Bulthaup-keukens op maat vanuit de showroom van Stadshaege in Amersfoort.
-intro: Bekijk gerealiseerde keukens in en rond Amersfoort en plan een rustig
-  showroomgesprek aan de Grote Haag.
+description: Keukens op maat vanuit de showroom van Stadshaege voor Amersfoort,
+  Utrecht, Hilversum, Laren en Bussum.
+intro: Bekijk gerealiseerde keukens in Amersfoort, Utrecht, Hilversum, Laren en
+  Bussum en plan een rustig showroomgesprek aan de Grote Haag.
 ---
-Bekijk gerealiseerde keukens in en rond Amersfoort en plan een rustig showroomgesprek aan de Grote Haag.
+Bekijk gerealiseerde keukens in Amersfoort, Utrecht, Hilversum, Laren en Bussum en plan een rustig showroomgesprek aan de Grote Haag.

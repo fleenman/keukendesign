@@ -1,6 +1,6 @@
 ---
 order: 15
-title: Bulthaup b3 in Huizen
+title: minimalistische witte design keuken in Huizen
 slug: bulthaup-b3-huizen
 system: b3
 layout: wandopstelling

@@ -4,7 +4,7 @@ import { projects } from '~/content/projects.mjs'
 const page = pages['bulthaup-b3']
 const related = projects.filter((project) => project.system === 'b3').slice(0, 6)
 const heroProject = related[0]
-useSeoMeta({ title: page.seoTitle, description: page.description })
+usePageSeo(page)
 </script>
 
 <template>

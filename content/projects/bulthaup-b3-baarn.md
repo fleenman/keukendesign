@@ -1,6 +1,6 @@
 ---
 order: 19
-title: Bulthaup b3 in Baarn
+title: luxe keuken met spoeleiland en houten zitbar
 slug: bulthaup-b3-baarn
 system: b3
 layout: wand en eiland

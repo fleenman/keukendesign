@@ -9,10 +9,12 @@ const featuredProjects = projects.slice(0, 3)
 useSeoMeta({
   title: page.seoTitle,
   description: page.description,
-  ogTitle: 'Stadshaege Keukendesign',
+  ogTitle: page.title,
   ogDescription: page.description,
   ogImage: new URL(page.hero.image, site.canonicalUrl).toString(),
   ogImageAlt: 'Bulthaup showroomkeuken van Stadshaege Keukendesign',
+  twitterTitle: page.title,
+  twitterDescription: page.description,
   twitterImage: new URL(page.hero.image, site.canonicalUrl).toString()
 })
 </script>
@@ -57,7 +59,7 @@ useSeoMeta({
     </div>
   </ContentSection>
 
-  <ContentSection eyebrow="Projecten" title="Geselecteerde bulthaup-keukens" text="Bekijk hoe verschillende materialen, opstellingen en bulthaup-systemen in echte woonruimtes uitpakken." heading-wide>
+  <ContentSection eyebrow="Projecten" title="gerealiseerde luxe design keukens" text="Bekijk hoe verschillende materialen, opstellingen en bulthaup-systemen in echte woonruimtes uitpakken." heading-wide>
     <div class="grid">
       <ProjectCard v-for="project in featuredProjects" :key="project.slug" :project="project" />
     </div>

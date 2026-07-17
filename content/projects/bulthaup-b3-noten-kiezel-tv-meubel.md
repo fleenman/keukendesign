@@ -1,6 +1,6 @@
 ---
 order: 1
-title: Bulthaup b3 met noten kasten, kiezel en tv-meubel
+title: luxe keuken met kasten tot aan het plafond met kookeiland
 slug: bulthaup-b3-noten-kiezel-tv-meubel
 system: b3
 layout: kastenwand
@@ -19,9 +19,7 @@ solution: Noten en kiezel zorgen voor tactiliteit, terwijl de b3-indeling de
 images:
   - /media/projecten/MG__1374-HDR-scaled.jpg
   - /media/projecten/MG__1312-scaled.jpg
-  - /media/projecten/BRS7773.jpg
-  - /media/projecten/BRS7779.jpg
-  - /media/projecten/MG__1047-HDR-scaled.jpg
-  - /media/projecten/MG__1030-scaled.jpg
+  - /media/projecten/bulthaup-kiezel-kasten-tot-aan-plafond-1.webp
+  - /media/projecten/bulthaup-kiezel-kasten-tot-aan-plafond-3.webp
 ---
 Een b3-project waarin notenhout, kiezelkleurige elementen en maatwerk rond de leefruimte samenkomen.

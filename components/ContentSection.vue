@@ -17,6 +17,7 @@ defineProps({
         <p v-else-if="eyebrow" class="eyebrow">{{ eyebrow }}</p>
         <component :is="breadcrumbs.length ? 'h1' : 'h2'">{{ title }}</component>
         <p v-if="text">{{ text }}</p>
+        <slot name="heading" />
       </div>
       <slot />
     </div>

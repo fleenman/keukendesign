@@ -3,7 +3,7 @@ import { pages } from '~/content/pages.mjs'
 import { projects } from '~/content/projects.mjs'
 const page = pages['keukens-amersfoort']
 const localProjects = projects.filter((project) => project.region.includes('Amersfoort')).slice(0, 3)
-useSeoMeta({ title: page.seoTitle, description: page.description })
+usePageSeo(page)
 </script>
 
 <template>

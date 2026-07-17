@@ -1,6 +1,6 @@
 ---
 order: 25
-title: Bulthaup b3 zwart eiken met kaolin en rvs blad
+title: high-end bulthaup keuken zwart eiken met kaolin en rvs blad
 slug: bulthaup-b3-zwart-eiken-kaolin-rvs
 system: b3
 layout: wand en werkblad

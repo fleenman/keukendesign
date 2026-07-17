@@ -1,6 +1,6 @@
 ---
 order: 28
-title: Bulthaup b3 alpine wit op houten visgraatvloer
+title: strakke witte design keuken op visgraat vloer alpine wit op houten visgraatvloer
 slug: bulthaup-b3-alpine-wit-visgraatvloer
 system: b3
 layout: wand en eiland

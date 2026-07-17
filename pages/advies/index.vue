@@ -1,7 +1,7 @@
 <script setup>
 import { pages } from '~/content/pages.mjs'
 const page = pages.advies
-useSeoMeta({ title: page.seoTitle, description: page.description })
+usePageSeo(page)
 </script>
 
 <template>
@@ -13,13 +13,14 @@ useSeoMeta({ title: page.seoTitle, description: page.description })
     </div>
   </ContentSection>
 
-  <ContentSection title="Persoonlijk advies van Filip Leenman" text="Sinds 1985 werkt Filip Leenman als keukenadviseur; sinds 1998 doet hij dat vanuit zijn eigen keukenzaak in Amersfoort.">
+  <ContentSection title="Persoonlijk advies van Filip Leenman" text="Sinds 1985 werkt Filip Leenman als interieur architect en keukenadviseur; sinds 1998 doet hij dat vanuit zijn eigen keukenzaak in Amersfoort.">
     <div class="media-copy">
       <ResponsiveImage src="/media/eigenaar/MG_7692-scaled.jpg" alt="Filip Leenman met een keukenbrochure in de showroom van Stadshaege Keukendesign" />
       <div class="panel">
         <h3>Ontwerp vanuit gebruik, ruimte en koken</h3>
         <p>In het adviesgesprek komen praktische routines concreet op tafel: boodschappen, voorraad, koelkast, ontbijt, koffie, afwas, afval en koken alleen of samen. Ook licht, kleur, materiaal en ruimtelijke indeling bepalen de uiteindelijke keuken.</p>
         <p style="margin-top:1rem">Filip kookt zelf graag en gebruikt die ervaring om wensen en gewoontes te vertalen naar een praktische, ergonomische en ruimtelijke oplossing.</p>
+        <p style="margin-top:1rem">In samenwerking met Koelewijn Bouwservice zorgen we voor een perfecte installatie, inclusief demontage en aanpassen van leidingen als dat nodig is.</p>
       </div>
     </div>
   </ContentSection>

@@ -1,6 +1,6 @@
 ---
 order: 24
-title: Bulthaup b3 kiezel met graniet blad en noten
+title: unieke bulthaup keuken met granieten blad
 slug: bulthaup-b3-kiezel-graniet-noten
 system: b3
 layout: wand en werkblad

@@ -1,6 +1,6 @@
 ---
 order: 22
-title: Bulthaup b3 met noten en kaolin
+title: luxe keuken met kookeiland en koffienis
 slug: bulthaup-b3-noten-kaolin
 system: b3
 layout: wand en eiland

@@ -1,6 +1,6 @@
 ---
 order: 35
-title: Bulthaup b3 kiezel met noten fineer en Coral Clay werkblad
+title: luxe maatwerk keuken met noten en kiezel en bulthaup tv meubel
 slug: bulthaup-b3-kiezel-noten-coral-clay
 system: b3
 layout: wand en eiland

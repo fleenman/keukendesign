@@ -1,6 +1,6 @@
 ---
 order: 18
-title: Bulthaup b3 grafiet met Bora Classic
+title: moderne grafiet kleur design keuken met kookeiland
 slug: bulthaup-b3-grafiet-bora-classic
 system: b3
 layout: eiland

@@ -6,7 +6,7 @@ const page = pages['bulthaup-bm']
 const related = projects.filter((project) => project.system === 'bm')
 const heroProject = related[0]
 
-useSeoMeta({ title: page.seoTitle, description: page.description })
+usePageSeo(page)
 </script>
 
 <template>

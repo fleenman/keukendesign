@@ -2,11 +2,14 @@
 import { pages } from '~/content/pages.mjs'
 import { site } from '~/content/site.mjs'
 const page = pages.contact
-useSeoMeta({ title: page.seoTitle, description: page.description })
+usePageSeo(page)
 </script>
 
 <template>
   <ContentSection :breadcrumbs="[{ label: 'Home', to: '/' }, { label: 'Contact' }]" :title="page.title" :text="page.intro">
+    <template #heading>
+      <p v-if="page.vacationNotice">{{ page.vacationNotice }}</p>
+    </template>
     <div class="grid-2">
       <div class="panel">
         <h3>{{ site.contact.name }}</h3>

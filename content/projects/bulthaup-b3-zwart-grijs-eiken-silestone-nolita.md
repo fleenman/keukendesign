@@ -1,6 +1,6 @@
 ---
 order: 36
-title: Bulthaup b3 zwartgrijs eiken structuur met Silestone Nolita
+title: exclusieve design keuken in zwart eiken met marmer blad
 slug: bulthaup-b3-zwart-grijs-eiken-silestone-nolita
 system: b3
 layout: wand en eiland
@@ -19,6 +19,5 @@ images:
   - /media/projecten/bulthaup-b3-zwart-grijs-eiken-struktuur-silestone-nolita-werkblad-03.jpg
   - /media/projecten/bulthaup-b3-zwart-grijs-eiken-struktuur-silestone-nolita-werkblad-04.jpg
   - /media/projecten/bulthaup-b3-zwart-grijs-eiken-struktuur-silestone-nolita-werkblad-05.jpg
-  - /media/projecten/bulthaup-b3-zwart-grijs-eiken-struktuur-silestone-nolita-werkblad-06.jpg
 ---
 Een b3-keuken met zwartgrijs eiken structuur en Silestone Nolita werkblad.

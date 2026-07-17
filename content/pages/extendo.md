@@ -4,7 +4,7 @@ route: /extendo/
 title: Extendo tafels en meubels
 seoTitle: Extendo | Tafels en meubels bij Stadshaege Keukendesign
 description: Ontdek Extendo tafels, stoelen en meubels bij Stadshaege Keukendesign in Amersfoort.
-intro: Stadshaege verkoopt naast bulthaup-keukens ook Extendo tafels, stoelen en meubels voor een complete woonkeuken.
+intro: Stadshaege verkoopt naast exclusieve keukens ook Extendo tafels, stoelen en meubels voor een complete woonkeuken.
 gallery:
   - image: /media/extendo/extendo-balance-tafel-marmer.jpg
     title: Extendo Balance tafel met marmer

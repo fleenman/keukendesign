@@ -18,6 +18,8 @@ useSeoMeta({
   ogDescription: () => product.value.summary,
   ogImage: () => new URL(product.value.image, site.canonicalUrl).toString(),
   ogImageAlt: () => product.value.alt,
+  twitterTitle: () => product.value.title,
+  twitterDescription: () => product.value.summary,
   twitterImage: () => new URL(product.value.image, site.canonicalUrl).toString()
 })
 

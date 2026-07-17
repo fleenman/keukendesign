@@ -57,11 +57,11 @@ export const pages = {
   "bulthaup": {
     "slug": "bulthaup",
     "route": "/bulthaup/",
-    "title": "Bulthaup-keukens op maat",
+    "title": "Keukens op maat",
     "seoTitle": "Bulthaup keukens | Stadshaege Keukendesign",
     "description": "Vergelijk bulthaup b3, b2 en bm en ervaar materialen en systemen in de showroom in Amersfoort.",
-    "intro": "Stadshaege werkt met bulthaup-systemen omdat ze rust, precisie, materiaalkeuze en persoonlijk maatwerk ondersteunen.",
-    "body": "Stadshaege werkt met bulthaup-systemen omdat ze rust, precisie, materiaalkeuze en persoonlijk maatwerk ondersteunen."
+    "intro": "Stadshaege werkt met keuken systemen die rust, precisie, materiaalkeuze en persoonlijk maatwerk ondersteunen.",
+    "body": "Stadshaege werkt met keuken systemen die rust, precisie, materiaalkeuze en persoonlijk maatwerk ondersteunen."
   },
   "contact": {
     "slug": "contact",
@@ -70,6 +70,7 @@ export const pages = {
     "seoTitle": "Contact | Stadshaege Keukendesign",
     "description": "Maak een showroomafspraak, bel of mail Stadshaege Keukendesign in Amersfoort.",
     "intro": "We nemen graag de tijd voor uw keukenplan. Bel, mail of gebruik de route naar de showroom.",
+    "vacationNotice": "Wij zijn met vakantie van 29 juli tot en met 21 augustus.",
     "body": "We nemen graag de tijd voor uw keukenplan. Bel, mail of gebruik de route naar de showroom."
   },
   "extendo": {
@@ -78,7 +79,7 @@ export const pages = {
     "title": "Extendo tafels en meubels",
     "seoTitle": "Extendo | Tafels en meubels bij Stadshaege Keukendesign",
     "description": "Ontdek Extendo tafels, stoelen en meubels bij Stadshaege Keukendesign in Amersfoort.",
-    "intro": "Stadshaege verkoopt naast bulthaup-keukens ook Extendo tafels, stoelen en meubels voor een complete woonkeuken.",
+    "intro": "Stadshaege verkoopt naast exclusieve keukens ook Extendo tafels, stoelen en meubels voor een complete woonkeuken.",
     "gallery": [
       {
         "image": "/media/extendo/extendo-balance-tafel-marmer.jpg",
@@ -123,11 +124,11 @@ export const pages = {
     "slug": "home",
     "route": "/",
     "title": "Persoonlijk ontworpen keukens in Amersfoort",
-    "seoTitle": "Stadshaege Keukendesign | Bulthaup keukens in Amersfoort",
-    "description": "Persoonlijk ontworpen bulthaup-keukens op maat vanuit de showroom in Amersfoort.",
+    "seoTitle": "Stadshaege Keukendesign | Luxe design keukens in Amersfoort",
+    "description": "Persoonlijk ontworpen luxe design keukens op maat vanuit de showroom in Amersfoort.",
     "hero": {
       "eyebrow": "Sinds 1998 in Amersfoort",
-      "text": "Stadshaege ontwerpt bulthaup keukens op maat vanuit woning, kookgedrag en dagelijks gebruik. Rustig, precies en persoonlijk begeleid door Filip Leenman.",
+      "text": "Stadshaege ontwerpt keukens op maat vanuit woning, kookgedrag en dagelijks gebruik. Rustig, precies en persoonlijk begeleid door Filip Leenman.",
       "image": "/media/showroom/showroom-4-1616x1212.jpg"
     },
     "body": "Persoonlijk ontworpen bulthaup-keukens op maat vanuit de showroom in Amersfoort."
@@ -135,11 +136,11 @@ export const pages = {
   "keukens-amersfoort": {
     "slug": "keukens-amersfoort",
     "route": "/keukens-amersfoort/",
-    "title": "Bulthaup-keukens op maat vanuit Amersfoort",
+    "title": "Keukens op maat vanuit Amersfoort",
     "seoTitle": "Keukens Amersfoort | Stadshaege Keukendesign",
-    "description": "Bulthaup-keukens op maat vanuit de showroom van Stadshaege in Amersfoort.",
-    "intro": "Bekijk gerealiseerde keukens in en rond Amersfoort en plan een rustig showroomgesprek aan de Grote Haag.",
-    "body": "Bekijk gerealiseerde keukens in en rond Amersfoort en plan een rustig showroomgesprek aan de Grote Haag."
+    "description": "Keukens op maat vanuit de showroom van Stadshaege voor Amersfoort, Utrecht, Hilversum, Laren en Bussum.",
+    "intro": "Bekijk gerealiseerde keukens in Amersfoort, Utrecht, Hilversum, Laren en Bussum en plan een rustig showroomgesprek aan de Grote Haag.",
+    "body": "Bekijk gerealiseerde keukens in Amersfoort, Utrecht, Hilversum, Laren en Bussum en plan een rustig showroomgesprek aan de Grote Haag."
   },
   "privacy": {
     "slug": "privacy",
@@ -153,11 +154,11 @@ export const pages = {
   "projecten": {
     "slug": "projecten",
     "route": "/projecten/",
-    "title": "Gerealiseerde bulthaup-keukens",
-    "seoTitle": "Projecten | Gerealiseerde bulthaup-keukens",
-    "description": "Bekijk geselecteerde bulthaup-projecten van Stadshaege Keukendesign met filters op systeem, opstelling en materiaal.",
-    "intro": "Ontdek welke opstellingen, materialen en bulthaup-systemen passen bij uw eigen woonruimte.",
-    "body": "Ontdek welke opstellingen, materialen en bulthaup-systemen passen bij uw eigen woonruimte."
+    "title": "keukeninspiratie gerealiseerde projecten",
+    "seoTitle": "Projecten | keukeninspiratie gerealiseerde projecten",
+    "description": "Bekijk keukeninspiratie en gerealiseerde design keukens van Stadshaege Keukendesign met filters op opstelling, materiaal en kleur.",
+    "intro": "Ontdek welke opstellingen, materialen en kleuren passen bij uw eigen woonruimte.",
+    "body": "Ontdek welke opstellingen, materialen en kleuren passen bij uw eigen woonruimte."
   },
   "showroom-route-en-parkeren": {
     "slug": "showroom-route-en-parkeren",
@@ -171,9 +172,9 @@ export const pages = {
   "showroom": {
     "slug": "showroom",
     "route": "/showroom/",
-    "title": "Ervaar bulthaup in Amersfoort",
+    "title": "Ervaar de mooiste keukens in Amersfoort",
     "seoTitle": "Showroom Amersfoort | Stadshaege Keukendesign",
-    "description": "Bezoek de bulthaup-showroom van Stadshaege aan de Grote Haag 15 in Amersfoort.",
+    "description": "Bezoek de keukenshowroom van Stadshaege aan de Grote Haag 15 in Amersfoort voor persoonlijk keukenadvies.",
     "intro": "Materialen, systemen en afwerking worden pas echt duidelijk wanneer u ze ziet en aanraakt. De showroom is gevestigd aan de Grote Haag in het gebouw Stadshaege. Wij leveren tevens keukenapparatuur van Miele, Siemens, Atag, Gaggenau, Bora, Quooker en nog meer.",
     "body": "Materialen, systemen en afwerking worden pas echt duidelijk wanneer u ze ziet en aanraakt. De showroom is gevestigd aan de Grote Haag in het gebouw Stadshaege. Wij leveren tevens keukenapparatuur van Miele, Siemens, Atag, Gaggenau, Bora, Quooker en nog meer."
   }

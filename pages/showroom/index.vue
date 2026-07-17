@@ -2,7 +2,7 @@
 import { pages } from '~/content/pages.mjs'
 import { site } from '~/content/site.mjs'
 const page = pages.showroom
-useSeoMeta({ title: page.seoTitle, description: page.description })
+usePageSeo(page)
 </script>
 
 <template>
@@ -12,7 +12,7 @@ useSeoMeta({ title: page.seoTitle, description: page.description })
       <div class="panel">
         <h3>{{ site.contact.streetAddress }}</h3>
         <p>{{ site.contact.postalCode }} {{ site.contact.city }}</p>
-        <p style="margin-top:1rem">Geopend van woensdag tot en met zaterdag. Voor persoonlijk advies of ontwerp graag een afspraak maken.</p>
+        <p style="margin-top:1rem">Geopend van woensdag tot en met zaterdag, van 10-17 uur. Voor persoonlijk advies of ontwerp graag een afspraak maken.</p>
         <div class="actions"><NuxtLink class="button" to="/contact/">Maak een afspraak</NuxtLink><NuxtLink class="button-secondary" to="/showroom/route-en-parkeren/">Route en parkeren</NuxtLink></div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 ---
 order: 21
-title: Bulthaup b3 kiezel met grijs blad
+title: compacte bulthaup keuken kiezel met grijs blad
 slug: bulthaup-b3-kiezel-grijs-blad
 system: b3
 layout: wand en blad

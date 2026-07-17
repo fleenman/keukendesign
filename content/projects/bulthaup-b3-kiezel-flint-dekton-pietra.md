@@ -1,6 +1,6 @@
 ---
 order: 33
-title: Bulthaup b3 kiezel en flint met Dekton Pietra blad
+title: exclusieve keuken kiezel en flint met Dekton Pietra blad
 slug: bulthaup-b3-kiezel-flint-dekton-pietra
 system: b3
 layout: wand en eiland

@@ -1,6 +1,6 @@
 ---
 order: 11
-title: Bulthaup b3 eiland met zitbar, Bora en wijnkast
+title: luxe Bulthaup b3 eiland met zitbar, Bora en wijnkast
 slug: bulthaup-b3-eiland-zitbar-bora-wijnkast
 system: b3
 layout: eiland met zitbar

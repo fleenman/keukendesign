@@ -12,6 +12,8 @@ useSeoMeta({
   ogDescription: page.intro,
   ogImage: new URL(extendoProducts[0]?.image, site.canonicalUrl).toString(),
   ogImageAlt: extendoProducts[0]?.alt,
+  twitterTitle: page.title,
+  twitterDescription: page.description,
   twitterImage: new URL(extendoProducts[0]?.image, site.canonicalUrl).toString()
 })
 </script>

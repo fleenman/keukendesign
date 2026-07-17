@@ -1,6 +1,6 @@
 ---
 order: 3
-title: Bulthaup b3 wit met noten en Dekton blad
+title: Japandi stijl keuken wit met noten en dekton kookeiland
 slug: bulthaup-b3-wit-noten-dekton
 system: b3
 layout: eiland en wand

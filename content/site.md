@@ -1,7 +1,7 @@
 ---
 name: Stadshaege Keukendesign
 canonicalUrl: https://www.keukendesign.nl
-description: Persoonlijk ontworpen bulthaup-keukens op maat vanuit de showroom
+description: Persoonlijk ontworpen luxe design keukens op maat vanuit de showroom
   in Amersfoort.
 contact:
   name: Stadshaege Keukendesign

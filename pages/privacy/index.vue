@@ -1,7 +1,7 @@
 <script setup>
 import { pages } from '~/content/pages.mjs'
 const page = pages.privacy
-useSeoMeta({ title: page.seoTitle, description: page.description })
+usePageSeo(page)
 </script>
 
 <template>

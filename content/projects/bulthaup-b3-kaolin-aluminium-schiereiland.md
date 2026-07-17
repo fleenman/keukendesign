@@ -1,6 +1,6 @@
 ---
 order: 6
-title: Bulthaup b3 met kaolin en aluminium schiereiland
+title: design keuken met schiereiland en aluminium grijze hoge kasten
 slug: bulthaup-b3-kaolin-aluminium-schiereiland
 system: b3
 layout: schiereiland

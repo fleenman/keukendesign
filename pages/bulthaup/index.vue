@@ -4,10 +4,7 @@ import { projects } from '~/content/projects.mjs'
 
 const page = pages.bulthaup
 
-useSeoMeta({
-  title: page.seoTitle,
-  description: page.description
-})
+usePageSeo(page)
 
 const systemCards = [
   {

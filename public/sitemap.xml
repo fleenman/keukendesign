@@ -72,8 +72,11 @@
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-noten-kiezel-tv-meubel/</loc>
     <image:image><image:loc>https://www.keukendesign.nl/media/projecten/MG__1374-HDR-scaled.jpg</image:loc></image:image>
     <image:image><image:loc>https://www.keukendesign.nl/media/projecten/MG__1312-scaled.jpg</image:loc></image:image>
-    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/BRS7773.jpg</image:loc></image:image>
-    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/BRS7779.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-kiezel-kasten-tot-aan-plafond-1.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-kiezel-kasten-tot-aan-plafond-3.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-noten-kiezel-tv-meubel-versie-3/</loc>
     <image:image><image:loc>https://www.keukendesign.nl/media/projecten/MG__1047-HDR-scaled.jpg</image:loc></image:image>
     <image:image><image:loc>https://www.keukendesign.nl/media/projecten/MG__1030-scaled.jpg</image:loc></image:image>
   </url>
@@ -82,6 +85,9 @@
     <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kaolin-flint-blad-1-1616x1077.jpg</image:loc></image:image>
     <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kaolin-flint-blad-3-1616x1077.jpg</image:loc></image:image>
     <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kaolin-flint-blad-4-1616x1077.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-kaolin-flint-versie-2/</loc>
     <image:image><image:loc>https://www.keukendesign.nl/media/projecten/b3-kaolin-met-flint-1-1616x1077.jpg</image:loc></image:image>
     <image:image><image:loc>https://www.keukendesign.nl/media/projecten/b3-kaolin-met-flint-2-1616x1077.jpg</image:loc></image:image>
     <image:image><image:loc>https://www.keukendesign.nl/media/projecten/b3-kaolin-met-flint-3-1616x1077.jpg</image:loc></image:image>
@@ -271,11 +277,6 @@
     <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-alpine-wit-met-dekton-eter-eiland-werkblad-1-06.jpg</image:loc></image:image>
   </url>
   <url>
-    <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-kiezel-wandkasten-kookeiland/</loc>
-    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/DSC_8369-1616x1075.jpg</image:loc></image:image>
-    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/DSC_8362-1616x1075.jpg</image:loc></image:image>
-  </url>
-  <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-greeploos-eiken-zwart-bruin-miami-vena/</loc>
     <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-greeploos-eiken-zwart-bruin-met-miami-vena-werkblad-01.jpg</image:loc></image:image>
     <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-greeploos-eiken-zwart-bruin-met-miami-vena-werkblad-02.jpg</image:loc></image:image>
@@ -284,24 +285,11 @@
     <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-greeploos-eiken-zwart-bruin-met-miami-vena-werkblad-05.jpg</image:loc></image:image>
   </url>
   <url>
-    <loc>https://www.keukendesign.nl/projecten/bulthaup-zwart-eiken-marmer-composiet/</loc>
-    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/BRS7817.jpg</image:loc></image:image>
-    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/BRS7816.jpg</image:loc></image:image>
-  </url>
-  <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-kaolin-u-opstelling-eiken-barblad/</loc>
     <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kaolin-u-opstelling-eiken-barblad-01.jpg</image:loc></image:image>
     <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kaolin-u-opstelling-eiken-barblad-02.jpg</image:loc></image:image>
     <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kaolin-u-opstelling-eiken-barblad-03.jpg</image:loc></image:image>
     <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kaolin-u-opstelling-eiken-barblad-04.jpg</image:loc></image:image>
-  </url>
-  <url>
-    <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-kaolin-flint-kookeiland-zitoverstek/</loc>
-    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kaolin-met-flint-kookeiland-met-zit-overstek-01.jpg</image:loc></image:image>
-    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kaolin-met-flint-kookeiland-met-zit-overstek-02.jpg</image:loc></image:image>
-    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kaolin-met-flint-kookeiland-met-zit-overstek-03.jpg</image:loc></image:image>
-    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kaolin-met-flint-kookeiland-met-zit-overstek-04.jpg</image:loc></image:image>
-    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-kaolin-met-flint-kookeiland-met-zit-overstek-05.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-kiezel-flint-dekton-pietra/</loc>
@@ -334,6 +322,5 @@
     <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-zwart-grijs-eiken-struktuur-silestone-nolita-werkblad-03.jpg</image:loc></image:image>
     <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-zwart-grijs-eiken-struktuur-silestone-nolita-werkblad-04.jpg</image:loc></image:image>
     <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-zwart-grijs-eiken-struktuur-silestone-nolita-werkblad-05.jpg</image:loc></image:image>
-    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-zwart-grijs-eiken-struktuur-silestone-nolita-werkblad-06.jpg</image:loc></image:image>
   </url>
 </urlset>

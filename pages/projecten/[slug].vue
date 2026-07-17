@@ -18,6 +18,8 @@ useSeoMeta({
   ogType: 'article',
   ogImage: () => new URL(project.value.cover, site.canonicalUrl).toString(),
   ogImageAlt: () => project.value.title,
+  twitterTitle: () => project.value.title,
+  twitterDescription: () => project.value.summary,
   twitterImage: () => new URL(project.value.cover, site.canonicalUrl).toString()
 })
 

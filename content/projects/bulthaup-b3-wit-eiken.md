@@ -1,6 +1,6 @@
 ---
 order: 10
-title: Bulthaup b3 wit eiken keuken
+title: premium bulthaup keuken met wit kookeiland en eiken naturel
 slug: bulthaup-b3-wit-eiken
 system: b3
 layout: wand en eiland

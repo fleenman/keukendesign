@@ -3,6 +3,10 @@ import { site } from '~/content/site.mjs'
 
 const route = useRoute()
 const canonicalUrl = computed(() => new URL(route.path, `${site.canonicalUrl}/`).toString())
+const serviceArea = ['Amersfoort', 'Utrecht', 'Hilversum', 'Laren', 'Bussum'].map((name) => ({
+  '@type': 'City',
+  name
+}))
 
 useSeoMeta({
   ogSiteName: site.name,
@@ -10,7 +14,7 @@ useSeoMeta({
   ogType: 'website',
   ogUrl: () => canonicalUrl.value,
   ogImage: `${site.canonicalUrl}/media/showroom/showroom-4-1616x1212.jpg`,
-  ogImageAlt: 'Bulthaup showroomkeuken bij Stadshaege Keukendesign in Amersfoort',
+  ogImageAlt: 'Showroomkeuken bij Stadshaege Keukendesign in Amersfoort',
   twitterCard: 'summary_large_image',
   twitterImage: `${site.canonicalUrl}/media/showroom/showroom-4-1616x1212.jpg`,
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'
@@ -44,10 +48,7 @@ const structuredData = {
         addressLocality: site.contact.city,
         addressCountry: 'NL'
       },
-      areaServed: {
-        '@type': 'City',
-        name: 'Amersfoort'
-      },
+      areaServed: serviceArea,
       hasMap: site.contact.routeUrl,
       contactPoint: [
         {
@@ -67,6 +68,7 @@ const structuredData = {
       ],
       knowsAbout: [
         'bulthaup keukens',
+        'luxe design keukens',
         'keukenontwerp',
         'maatwerk keukens',
         'keukenapparatuur',
@@ -80,10 +82,7 @@ const structuredData = {
             name: 'Persoonlijk keukenadvies en keukenontwerp',
             serviceType: 'Keukenontwerp'
           },
-          areaServed: {
-            '@type': 'City',
-            name: 'Amersfoort'
-          }
+          areaServed: serviceArea
         }
       ],
       openingHoursSpecification: {

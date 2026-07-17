@@ -1,6 +1,6 @@
 ---
 order: 30
-title: Bulthaup b3 greeploos eiken zwartbruin met Miami Vena werkblad
+title: hotel-chic greeploze keuken in zwartbruin eiken met marmer blad
 slug: bulthaup-b3-greeploos-eiken-zwart-bruin-miami-vena
 system: b3
 layout: greeploos

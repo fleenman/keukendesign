@@ -1,6 +1,6 @@
 ---
 order: 16
-title: Bulthaup b3 met wit eiland en zwart eiken bar
+title: exclusieve keuken met hoek zitbar en hogekasten in zwart eiken
 slug: bulthaup-b3-zwart-eiken-bar
 system: b3
 layout: eiland met bar

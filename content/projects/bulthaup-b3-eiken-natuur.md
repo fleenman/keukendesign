@@ -1,6 +1,6 @@
 ---
 order: 7
-title: Bulthaup b3 in eiken natuur
+title: luxe keuken met kookeiland in wit met naturel eiken
 slug: bulthaup-b3-eiken-natuur
 system: b3
 layout: wand en eiland

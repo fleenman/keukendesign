@@ -1,6 +1,6 @@
 ---
 order: 29
-title: Bulthaup b3 alpine wit met Dekton Eter eilandwerkblad
+title: design greeploze keuken in Almere alpine wit met Dekton Eter eilandwerkblad
 slug: bulthaup-b3-alpine-wit-dekton-eter-eiland
 system: b3
 layout: eiland

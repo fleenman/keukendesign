@@ -1,6 +1,6 @@
 ---
 order: 14
-title: Bulthaup b3 donker aluminium kookeiland met Bora
+title: premium bulthaup keuken in donker aluminium kookeiland met Bora
 slug: bulthaup-b3-donker-aluminium-kookeiland
 system: b3
 layout: kookeiland

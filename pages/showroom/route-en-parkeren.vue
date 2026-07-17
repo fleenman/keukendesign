@@ -2,7 +2,7 @@
 import { pages } from '~/content/pages.mjs'
 import { site } from '~/content/site.mjs'
 const page = pages['showroom-route-en-parkeren']
-useSeoMeta({ title: page.seoTitle, description: page.description })
+usePageSeo(page)
 </script>
 
 <template>

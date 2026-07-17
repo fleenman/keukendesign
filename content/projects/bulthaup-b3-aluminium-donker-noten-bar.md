@@ -1,6 +1,6 @@
 ---
 order: 13
-title: Bulthaup b3 aluminium donker met noten bar
+title: high-end Bulthaup b3 aluminium donker met noten bar
 slug: bulthaup-b3-aluminium-donker-noten-bar
 system: b3
 layout: bar

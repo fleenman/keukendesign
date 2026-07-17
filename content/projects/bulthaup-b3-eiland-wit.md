@@ -1,6 +1,6 @@
 ---
 order: 17
-title: Bulthaup b3 eilandkeuken in wit
+title: strakke witte design keuken met groot eiland
 slug: bulthaup-b3-eiland-wit
 system: b3
 layout: eiland

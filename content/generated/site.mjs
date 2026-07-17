@@ -2,7 +2,7 @@
 export const site = {
   "name": "Stadshaege Keukendesign",
   "canonicalUrl": "https://www.keukendesign.nl",
-  "description": "Persoonlijk ontworpen bulthaup-keukens op maat vanuit de showroom in Amersfoort.",
+  "description": "Persoonlijk ontworpen luxe design keukens op maat vanuit de showroom in Amersfoort.",
   "contact": {
     "name": "Stadshaege Keukendesign",
     "streetAddress": "Grote Haag 15",

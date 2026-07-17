@@ -1,6 +1,6 @@
 ---
 order: 12
-title: Bulthaup b3 hoge kast met nis en Bora Professional
+title: unieke keuken met koffienis en hoekopstelling
 slug: bulthaup-b3-hogekast-nis-bora-professional
 system: b3
 layout: hoge kasten met nis

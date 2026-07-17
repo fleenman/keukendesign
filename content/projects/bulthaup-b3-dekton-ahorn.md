@@ -1,6 +1,6 @@
 ---
 order: 8
-title: Bulthaup b3 met Dekton blad en ahorn kast
+title: tijdloze design keuken met essen en dekton marmer blad in Utrecht
 slug: bulthaup-b3-dekton-ahorn
 system: b3
 layout: kastenwand en werkblad

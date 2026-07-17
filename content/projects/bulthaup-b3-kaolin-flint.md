@@ -1,6 +1,6 @@
 ---
 order: 2
-title: Bulthaup b3 met kaolin, flint en doorlopend blad
+title: strakke design keuken in kaolin met minimalistische wandplank
 slug: bulthaup-b3-kaolin-flint
 system: b3
 layout: wand en eiland
@@ -18,10 +18,5 @@ images:
   - /media/projecten/bulthaup-b3-kaolin-flint-blad-1-1616x1077.jpg
   - /media/projecten/bulthaup-b3-kaolin-flint-blad-3-1616x1077.jpg
   - /media/projecten/bulthaup-b3-kaolin-flint-blad-4-1616x1077.jpg
-  - /media/projecten/b3-kaolin-met-flint-1-1616x1077.jpg
-  - /media/projecten/b3-kaolin-met-flint-2-1616x1077.jpg
-  - /media/projecten/b3-kaolin-met-flint-3-1616x1077.jpg
-  - /media/projecten/b3-kaolin-met-flint-4-1616x1077.jpg
-  - /media/projecten/b3-kaolin-met-flint-5-1616x1077.jpg
 ---
 Een b3-keuken waarin zachte kleurtonen en een rustig werkblad de basis vormen.

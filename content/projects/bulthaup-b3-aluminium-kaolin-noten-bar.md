@@ -1,6 +1,6 @@
 ---
 order: 20
-title: Bulthaup b3 aluminium kaolin met noten bar
+title: exclusieve bulthaup keuken met zitbar en donker alumium
 slug: bulthaup-b3-aluminium-kaolin-noten-bar
 system: b3
 layout: bar

@@ -1,6 +1,6 @@
 ---
 order: 31
-title: Bulthaup b3 kaolin U-opstelling met eiken barblad
+title: creatieve keuken met barblad voor raam kaolin U-opstelling met eiken barblad
 slug: bulthaup-b3-kaolin-u-opstelling-eiken-barblad
 system: b3
 layout: U-opstelling

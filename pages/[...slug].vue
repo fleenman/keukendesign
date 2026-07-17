@@ -15,12 +15,7 @@ if (!page.value) {
 
 const paragraphs = computed(() => page.value.body.split(/\n{2,}/).filter(Boolean))
 
-useSeoMeta({
-  title: () => page.value.seoTitle || page.value.title,
-  description: () => page.value.description,
-  ogTitle: () => page.value.title,
-  ogDescription: () => page.value.description
-})
+usePageSeo(page)
 </script>
 
 <template>

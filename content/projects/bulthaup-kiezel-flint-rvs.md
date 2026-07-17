@@ -1,6 +1,6 @@
 ---
 order: 26
-title: Bulthaup b3 met kiezel, flint en rvs blad
+title: luxe bulthaup greeploze keuken met kiezel, flint en rvs blad
 slug: bulthaup-kiezel-flint-rvs
 system: b3
 layout: wand en werkblad

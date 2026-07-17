@@ -1,6 +1,6 @@
 ---
 order: 34
-title: Bulthaup b3 kiezel met Dekton Pietra en Extendo tafel
+title: unieke keuken in kiezel met Dekton Pietra en Extendo tafel
 slug: bulthaup-b3-kiezel-dekton-pietra-extendo-tafel
 system: b3
 layout: wand en tafel
