@@ -1,6 +1,6 @@
 ---
 order: 23
-title: Bulthaup b3 flint met kiezel en bokmerk achterwand
+title: bulthaup u-keuken flint met kiezel en bokmerk achterwand
 slug: bulthaup-b3-flint-kiezel
 system: b3
 layout: wand en werkblad
