@@ -22,6 +22,5 @@ images:
   - /media/projecten/Amersfoort-2015-ref02-_ROB7421.png
   - /media/projecten/Amersfoort-2015-ref02-_ROB7429.png
   - /media/projecten/Amersfoort-2015-ref02-_ROB7431.png
-  - /media/projecten/Amersfoort-2015-ref01-7391-1616x1077.jpg
 ---
 Een donkere b3-keuken met kookeiland, aluminiumtint en Bora-oplossing.

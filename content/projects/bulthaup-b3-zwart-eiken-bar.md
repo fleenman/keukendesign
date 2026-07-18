@@ -24,6 +24,5 @@ images:
   - /media/projecten/b3-eiland-wit-hoekbar-zwart-eiken-6-LR-1616x1077.jpg
   - /media/projecten/b3-eiland-hogekast-zwart-eiken-2-LR-1616x1077.jpg
   - /media/projecten/b3-eiland-hogekast-zwart-eiken-3-LR-1616x1077.jpg
-  - /media/projecten/bulthaup-b3-zwart-eiken-kast-bar-1616x1077.jpg
 ---
 Een b3-eilandkeuken waarin witte fronten, zwart eiken en een hoekbar een sociale leefkeuken vormen.
