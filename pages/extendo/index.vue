@@ -4,6 +4,7 @@ import { pages } from '~/content/pages.mjs'
 import { site } from '~/content/site.mjs'
 
 const page = pages.extendo
+const atelierProduct = extendoProducts.find((product) => product.slug === 'atelier')
 
 useSeoMeta({
   title: page.seoTitle,
@@ -34,6 +35,36 @@ useSeoMeta({
           <span>Bekijk product</span>
         </div>
       </NuxtLink>
+      <a
+        v-if="atelierProduct"
+        class="card product-card"
+        href="https://www.strackk.com/nl"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <ResponsiveImage src="/media/projecten/strackk wandplank.jpg" alt="Strackk wandplank op maat" />
+        <div class="product-card-body">
+          <p class="eyebrow">{{ atelierProduct.eyebrow }}</p>
+          <h3>Strackk wandplank</h3>
+          <p>Wij leveren ook Strackk wandplanken op maat, ook met ledverlichting en op kleur.</p>
+          <span>Bekijk Strackk</span>
+        </div>
+      </a>
+      <a
+        v-if="atelierProduct"
+        class="card product-card"
+        href="https://www.bokmerk.nl/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <ResponsiveImage src="/media/projecten/bokmerk-met-wandplank.jpg" alt="Bokmerk achterwand met wandplank" />
+        <div class="product-card-body">
+          <p class="eyebrow">{{ atelierProduct.eyebrow }}</p>
+          <h3>Bokmerk achterwand</h3>
+          <p>Bokmerk achterwanden geven de keuken een strakke en praktische afwerking, wij leveren en monteren deze op maat gemaakt.</p>
+          <span>Bekijk Bokmerk</span>
+        </div>
+      </a>
     </div>
   </ContentSection>
 

@@ -204,6 +204,10 @@ export const imageDimensions = {
     "width": 2856,
     "height": 2142
   },
+  "/media/projecten/bokmerk-met-wandplank.jpg": {
+    "width": 6000,
+    "height": 4000
+  },
   "/media/projecten/BRS7773.jpg": {
     "width": 1024,
     "height": 683
@@ -219,6 +223,34 @@ export const imageDimensions = {
   "/media/projecten/BRS7817.jpg": {
     "width": 1024,
     "height": 683
+  },
+  "/media/projecten/bulthaup platina grijs met noten bar en achterwand 1.jpg": {
+    "width": 6000,
+    "height": 4000
+  },
+  "/media/projecten/bulthaup platina grijs met noten bar en achterwand 2.jpg": {
+    "width": 6000,
+    "height": 4000
+  },
+  "/media/projecten/bulthaup platina grijs met noten bar en achterwand 3.jpg": {
+    "width": 6000,
+    "height": 4000
+  },
+  "/media/projecten/bulthaup platina grijs met noten bar en achterwand 4.jpg": {
+    "width": 6000,
+    "height": 4000
+  },
+  "/media/projecten/bulthaup platina grijs met noten bar en achterwand 5.jpg": {
+    "width": 6000,
+    "height": 4000
+  },
+  "/media/projecten/bulthaup platina grijs met noten bar en achterwand 6.jpg": {
+    "width": 6000,
+    "height": 4000
+  },
+  "/media/projecten/bulthaup platina grijs met noten bar en achterwand 7.jpg": {
+    "width": 6000,
+    "height": 4000
   },
   "/media/projecten/bulthaup-b1-eiland-met-eiken-natuur-amersfoort-1616x1077.jpg": {
     "width": 1616,
@@ -707,6 +739,10 @@ export const imageDimensions = {
   "/media/projecten/MG__1374-HDR-scaled.jpg": {
     "width": 2560,
     "height": 1707
+  },
+  "/media/projecten/strackk wandplank.jpg": {
+    "width": 6701,
+    "height": 4467
   },
   "/media/showroom/DSC_4954-1616x1077.jpg": {
     "width": 1616,

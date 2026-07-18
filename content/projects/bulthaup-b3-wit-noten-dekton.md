@@ -5,7 +5,6 @@ slug: bulthaup-b3-wit-noten-dekton
 system: b3
 layout: eiland en wand
 materials:
-  - wit
   - noten
   - Dekton
 appliances: []

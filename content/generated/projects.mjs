@@ -47,6 +47,32 @@ export const projects = [
     ]
   },
   {
+    "title": "industriële keuken in platina grijs met noten bar en achterwand",
+    "slug": "bulthaup-b3-platina-grijs-noten-bar-achterwand",
+    "system": "b3",
+    "layout": "eiland met bar",
+    "materials": [
+      "noten"
+    ],
+    "appliances": [],
+    "region": "Amersfoort en omgeving",
+    "summary": "Een open b3-keuken waarin platina grijs, een notenhouten bar en een doorlopende achterwand warmte en rust samenbrengen.",
+    "question": "Hoe verbind je een ruim kookeiland met de leefruimte en het karakter van een industrieel interieur?",
+    "challenge": "De keuken moest royaal en sociaal aanvoelen, zonder te concurreren met de zichtbare balken, baksteen en grote open ruimte.",
+    "solution": "De rustige fronten in platina grijs vormen een lichte basis, terwijl de notenhouten bar en achterwand de keuken verbinden met de warme materialen van het interieur.",
+    "body": "Een lichte bulthaup b3-keuken met een royaal kookeiland, platina grijze fronten en notenhout als warm accent. De bar maakt het eiland tot een vanzelfsprekende ontmoetingsplek, terwijl de achterwand extra samenhang brengt tussen keuken en leefruimte.",
+    "cover": "/media/projecten/bulthaup platina grijs met noten bar en achterwand 1.jpg",
+    "gallery": [
+      "/media/projecten/bulthaup platina grijs met noten bar en achterwand 1.jpg",
+      "/media/projecten/bulthaup platina grijs met noten bar en achterwand 2.jpg",
+      "/media/projecten/bulthaup platina grijs met noten bar en achterwand 3.jpg",
+      "/media/projecten/bulthaup platina grijs met noten bar en achterwand 4.jpg",
+      "/media/projecten/bulthaup platina grijs met noten bar en achterwand 5.jpg",
+      "/media/projecten/bulthaup platina grijs met noten bar en achterwand 6.jpg",
+      "/media/projecten/bulthaup platina grijs met noten bar en achterwand 7.jpg"
+    ]
+  },
+  {
     "title": "strakke design keuken in kaolin met minimalistische wandplank",
     "slug": "bulthaup-b3-kaolin-flint",
     "system": "b3",
@@ -100,7 +126,6 @@ export const projects = [
     "system": "b3",
     "layout": "eiland en wand",
     "materials": [
-      "wit",
       "noten",
       "Dekton"
     ],
@@ -218,7 +243,7 @@ export const projects = [
     "system": "b3",
     "layout": "wand en eiland",
     "materials": [
-      "eiken natuur",
+      "eiken",
       "antraciet"
     ],
     "appliances": [],
@@ -356,8 +381,7 @@ export const projects = [
       "/media/projecten/Amersfoort-2015-ref02-_ROB7414.png",
       "/media/projecten/Amersfoort-2015-ref02-_ROB7421.png",
       "/media/projecten/Amersfoort-2015-ref02-_ROB7429.png",
-      "/media/projecten/Amersfoort-2015-ref02-_ROB7431.png",
-      "/media/projecten/Amersfoort-2015-ref01-7391-1616x1077.jpg"
+      "/media/projecten/Amersfoort-2015-ref02-_ROB7431.png"
     ]
   },
   {
@@ -403,8 +427,7 @@ export const projects = [
       "/media/projecten/b3-eiland-wit-hoekbar-zwart-eiken-5-LR-1616x1077.jpg",
       "/media/projecten/b3-eiland-wit-hoekbar-zwart-eiken-6-LR-1616x1077.jpg",
       "/media/projecten/b3-eiland-hogekast-zwart-eiken-2-LR-1616x1077.jpg",
-      "/media/projecten/b3-eiland-hogekast-zwart-eiken-3-LR-1616x1077.jpg",
-      "/media/projecten/bulthaup-b3-zwart-eiken-kast-bar-1616x1077.jpg"
+      "/media/projecten/b3-eiland-hogekast-zwart-eiken-3-LR-1616x1077.jpg"
     ]
   },
   {
@@ -546,7 +569,7 @@ export const projects = [
     ]
   },
   {
-    "title": "Bulthaup b3 flint met kiezel en bokmerk achterwand",
+    "title": "bulthaup u-keuken flint met kiezel en bokmerk achterwand",
     "slug": "bulthaup-b3-flint-kiezel",
     "system": "b3",
     "layout": "wand en werkblad",
@@ -820,8 +843,7 @@ export const projects = [
     "layout": "wand en eiland",
     "materials": [
       "kiezel",
-      "flint",
-      "Dekton Pietra"
+      "flint"
     ],
     "appliances": [],
     "region": "Amersfoort en omgeving",

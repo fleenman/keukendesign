@@ -76,7 +76,7 @@ export const pages = {
   "extendo": {
     "slug": "extendo",
     "route": "/extendo/",
-    "title": "Extendo tafels en meubels",
+    "title": "Extendo tafels en meubels, Bokmerk en Stackk",
     "seoTitle": "Extendo | Tafels en meubels bij Stadshaege Keukendesign",
     "description": "Ontdek Extendo tafels, stoelen en meubels bij Stadshaege Keukendesign in Amersfoort.",
     "intro": "Stadshaege verkoopt naast exclusieve keukens ook Extendo tafels, stoelen en meubels voor een complete woonkeuken.",

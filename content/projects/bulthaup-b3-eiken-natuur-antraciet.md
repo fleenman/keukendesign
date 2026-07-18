@@ -5,7 +5,7 @@ slug: bulthaup-b3-eiken-natuur-antraciet
 system: b3
 layout: wand en eiland
 materials:
-  - eiken natuur
+  - eiken
   - antraciet
 appliances: []
 region: Amersfoort en omgeving

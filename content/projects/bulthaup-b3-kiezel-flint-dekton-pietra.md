@@ -7,7 +7,6 @@ layout: wand en eiland
 materials:
   - kiezel
   - flint
-  - Dekton Pietra
 appliances: []
 region: Amersfoort en omgeving
 summary: Een b3-keuken met kiezel, flint en een Dekton Pietra blad.
