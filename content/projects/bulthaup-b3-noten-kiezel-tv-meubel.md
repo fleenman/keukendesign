@@ -1,6 +1,6 @@
 ---
 order: 1
-title: luxe keuken met kasten tot aan het plafond met kookeiland
+title: luxe maatwerk keuken met kasten tot aan het plafond met kookeiland
 slug: bulthaup-b3-noten-kiezel-tv-meubel
 system: b3
 layout: kastenwand

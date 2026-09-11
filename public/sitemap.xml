@@ -29,6 +29,10 @@
     <loc>https://www.keukendesign.nl/contact/</loc>
   </url>
   <url>
+    <loc>https://www.keukendesign.nl/exclusieve-maatwerk-keukens/</loc>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/MG__1374-HDR-scaled.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://www.keukendesign.nl/extendo/</loc>
   </url>
   <url>
@@ -56,6 +60,10 @@
     <loc>https://www.keukendesign.nl/keukens-amersfoort/</loc>
   </url>
   <url>
+    <loc>https://www.keukendesign.nl/moderne-keukens-amersfoort/</loc>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/Amersfoort-2015-ref02-_ROB7414.png</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://www.keukendesign.nl/privacy/</loc>
   </url>
   <url>
@@ -69,6 +77,10 @@
     <loc>https://www.keukendesign.nl/showroom/route-en-parkeren/</loc>
   </url>
   <url>
+    <loc>https://www.keukendesign.nl/tijdloze-keukens/</loc>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup-b3-dekton-blad-ahorn-kast-2-1616x1077.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-noten-kiezel-tv-meubel/</loc>
     <image:image><image:loc>https://www.keukendesign.nl/media/projecten/MG__1374-HDR-scaled.jpg</image:loc></image:image>
     <image:image><image:loc>https://www.keukendesign.nl/media/projecten/MG__1312-scaled.jpg</image:loc></image:image>
@@ -79,6 +91,16 @@
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-noten-kiezel-tv-meubel-versie-3/</loc>
     <image:image><image:loc>https://www.keukendesign.nl/media/projecten/MG__1047-HDR-scaled.jpg</image:loc></image:image>
     <image:image><image:loc>https://www.keukendesign.nl/media/projecten/MG__1030-scaled.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-platina-grijs-noten-bar-achterwand/</loc>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup platina grijs met noten bar en achterwand 1.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup platina grijs met noten bar en achterwand 2.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup platina grijs met noten bar en achterwand 3.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup platina grijs met noten bar en achterwand 4.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup platina grijs met noten bar en achterwand 5.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup platina grijs met noten bar en achterwand 6.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.keukendesign.nl/media/projecten/bulthaup platina grijs met noten bar en achterwand 7.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.keukendesign.nl/projecten/bulthaup-b3-kaolin-flint/</loc>

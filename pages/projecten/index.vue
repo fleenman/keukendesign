@@ -24,6 +24,12 @@ useSeoMeta({
     <p class="project-more-link">
       Hier lees je ook de verhalen van de klanten van aankoop tot de realisatie.
     </p>
+    <p class="project-more-link">
+      Op zoek naar een rustige basis die jarenlang past bij uw woning? <NuxtLink to="/tijdloze-keukens/">Ontdek onze tijdloze keukens</NuxtLink>.
+    </p>
+    <p class="project-more-link">
+      Houdt u van een strakke, eigentijdse stijl? <NuxtLink to="/moderne-keukens-amersfoort/">Bekijk moderne keukens in Amersfoort</NuxtLink>.
+    </p>
     <ProjectFilters :projects="projects" @update="visibleProjects = $event" />
     <div class="grid project-grid" style="margin-top:2rem">
       <ProjectCard v-for="project in visibleProjects" :key="project.slug" :project="project" />

@@ -49,6 +49,13 @@ useSeoMeta({
           <p>Zie hoe de systemen verschillen in toepassing, flexibiliteit en uitstraling.</p>
         </div>
       </NuxtLink>
+      <NuxtLink class="card project-card" to="/exclusieve-maatwerk-keukens/">
+        <div class="card-body">
+          <p class="meta-label">Maatwerk</p>
+          <h3>Ontdek exclusieve maatwerk keukens</h3>
+          <p>Bekijk hoe ontwerp, materiaal en dagelijks gebruik samenkomen in gerealiseerde keukens.</p>
+        </div>
+      </NuxtLink>
       <NuxtLink class="card project-card" to="/advies/">
         <div class="card-body">
           <p class="meta-label">Advies</p>

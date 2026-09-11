@@ -70,8 +70,16 @@ export const pages = {
     "seoTitle": "Contact | Stadshaege Keukendesign",
     "description": "Maak een showroomafspraak, bel of mail Stadshaege Keukendesign in Amersfoort.",
     "intro": "We nemen graag de tijd voor uw keukenplan. Bel, mail of gebruik de route naar de showroom.",
-    "vacationNotice": "Wij zijn met vakantie van 29 juli tot en met 21 augustus.",
     "body": "We nemen graag de tijd voor uw keukenplan. Bel, mail of gebruik de route naar de showroom."
+  },
+  "exclusieve-maatwerk-keukens": {
+    "slug": "exclusieve-maatwerk-keukens",
+    "route": "/exclusieve-maatwerk-keukens/",
+    "title": "Exclusieve maatwerk keukens",
+    "seoTitle": "Exclusieve maatwerk keukens | Stadshaege Amersfoort",
+    "description": "Exclusieve maatwerk keukens, persoonlijk ontworpen rond uw woning, kookgedrag en materiaalvoorkeur vanuit Amersfoort.",
+    "intro": "Een keuken die niet alleen mooi oogt, maar vanzelfsprekend werkt in uw dagelijks leven.",
+    "body": "Een exclusieve maatwerk keuken begint bij de ruimte waarin u woont. Daarom kijken we verder dan een opstelling alleen: naar looplijnen, licht, zicht, opbergen en de manier waarop u kookt en samenleeft. Vanuit die keuzes ontstaat een ontwerp met rust, precisie en een eigen karakter.\n\nIn onze showroom in Amersfoort brengt u materialen, fronten, werkbladen en bulthaup-systemen samen. We vertalen uw wensen naar een keuken die past bij de architectuur van uw woning én lang prettig blijft in gebruik. Bekijk hieronder enkele gerealiseerde projecten en plan een persoonlijk gesprek wanneer u uw plannen wilt verkennen."
   },
   "extendo": {
     "slug": "extendo",
@@ -136,11 +144,20 @@ export const pages = {
   "keukens-amersfoort": {
     "slug": "keukens-amersfoort",
     "route": "/keukens-amersfoort/",
-    "title": "Keukens op maat vanuit Amersfoort",
-    "seoTitle": "Keukens Amersfoort | Stadshaege Keukendesign",
-    "description": "Keukens op maat vanuit de showroom van Stadshaege voor Amersfoort, Utrecht, Hilversum, Laren en Bussum.",
-    "intro": "Bekijk gerealiseerde keukens in Amersfoort, Utrecht, Hilversum, Laren en Bussum en plan een rustig showroomgesprek aan de Grote Haag.",
-    "body": "Bekijk gerealiseerde keukens in Amersfoort, Utrecht, Hilversum, Laren en Bussum en plan een rustig showroomgesprek aan de Grote Haag."
+    "title": "Exclusieve keukenzaak in Amersfoort",
+    "seoTitle": "Keukenzaak Amersfoort | Exclusieve maatwerk keukens | Stadshaege",
+    "description": "Bezoek Stadshaege, de keukenzaak en keukenwinkel in Amersfoort voor exclusieve maatwerk keukens, bulthaup en persoonlijk ontwerp.",
+    "intro": "In onze keukenzaak aan de Grote Haag 15 in Amersfoort ontdekt u exclusieve maatwerk keukens, materialen en bulthaup-systemen in alle rust.",
+    "body": "Bezoek onze keukenzaak in Amersfoort voor een persoonlijk gesprek over uw woning, kookgedrag en materiaalvoorkeur. We ontwerpen maatwerk keukens die rustig ogen en dagelijks prettig werken."
+  },
+  "moderne-keukens-amersfoort": {
+    "slug": "moderne-keukens-amersfoort",
+    "route": "/moderne-keukens-amersfoort/",
+    "title": "Moderne keukens in Amersfoort",
+    "seoTitle": "Moderne keukens Amersfoort | Maatwerk en bulthaup | Stadshaege",
+    "description": "Ontdek moderne keukens in Amersfoort: maatwerk met strakke lijnen, slimme indelingen en hoogwaardige materialen, ontworpen door Stadshaege.",
+    "intro": "Een moderne keuken is helder van lijn, prettig in gebruik en precies afgestemd op de woning waarin u leeft.",
+    "body": "Een moderne keuken begint bij de ruimte, niet bij een standaardopstelling. We kijken naar licht, zichtlijnen, looproutes en de verbinding met de leefruimte. Zo ontstaat een keuken met rust en karakter: strak waar dat past, warm waar de woning daarom vraagt.\n\nIn onze showroom in Amersfoort brengt u materialen en oplossingen samen. Denk aan een greeploze kastenwand, een kookeiland als middelpunt van de ruimte, hout voor warmte en Dekton of aluminium voor een heldere, duurzame basis. We vergelijken fronten, werkbladen en apparatuur in het echt, zodat keuzes niet alleen mooi ogen maar ook logisch voelen.\n\nEen moderne keuken moet elke dag goed werken. Daarom geven we evenveel aandacht aan werkzones, bergruimte en details als aan het totaalbeeld. Hieronder vindt u gerealiseerde moderne keukens uit Amersfoort en omgeving. Ze laten zien hoe een persoonlijk ontwerp kan aansluiten op verschillende woningen en manieren van leven."
   },
   "privacy": {
     "slug": "privacy",
@@ -172,10 +189,19 @@ export const pages = {
   "showroom": {
     "slug": "showroom",
     "route": "/showroom/",
-    "title": "Ervaar de mooiste keukens in Amersfoort",
-    "seoTitle": "Showroom Amersfoort | Stadshaege Keukendesign",
-    "description": "Bezoek de keukenshowroom van Stadshaege aan de Grote Haag 15 in Amersfoort voor persoonlijk keukenadvies.",
-    "intro": "Materialen, systemen en afwerking worden pas echt duidelijk wanneer u ze ziet en aanraakt. De showroom is gevestigd aan de Grote Haag in het gebouw Stadshaege. Wij leveren tevens keukenapparatuur van Miele, Siemens, Atag, Gaggenau, Bora, Quooker en nog meer.",
+    "title": "Exclusieve keukenshowroom in Amersfoort",
+    "seoTitle": "Keukenshowroom Amersfoort | Bulthaup & maatwerk | Stadshaege",
+    "description": "Bezoek de keukenshowroom van Stadshaege aan de Grote Haag 15 in Amersfoort voor bulthaup, maatwerk en persoonlijk keukenadvies.",
+    "intro": "In onze keukenshowroom in Amersfoort ziet en voelt u materialen, systemen en afwerking. Ontdek bulthaup en keukenapparatuur in alle rust, bij voorkeur op afspraak.",
     "body": "Materialen, systemen en afwerking worden pas echt duidelijk wanneer u ze ziet en aanraakt. De showroom is gevestigd aan de Grote Haag in het gebouw Stadshaege. Wij leveren tevens keukenapparatuur van Miele, Siemens, Atag, Gaggenau, Bora, Quooker en nog meer."
+  },
+  "tijdloze-keukens": {
+    "slug": "tijdloze-keukens",
+    "route": "/tijdloze-keukens/",
+    "title": "Tijdloze keukens",
+    "seoTitle": "Tijdloze keukens op maat | Rustig en duurzaam ontwerp | Stadshaege",
+    "description": "Ontdek tijdloze keukens op maat van Stadshaege: rustige lijnen, hoogwaardige materialen en een indeling die jarenlang past bij uw woning.",
+    "intro": "Een tijdloze keuken voelt vandaag vanzelfsprekend en blijft dat ook wanneer uw leven en smaak mee veranderen.",
+    "body": "Een tijdloze keuken is geen vaste stijl, maar een zorgvuldig evenwicht. Rust in de lijnen, materialen die mooi ouder worden en een indeling die aansluit op de manier waarop u woont, koken en gasten ontvangt. Zo ontstaat een keuken die niet om aandacht vraagt, maar jarenlang een vanzelfsprekend onderdeel van uw huis is.\n\nWe ontwerpen vanuit uw woning: het daglicht, de zichtlijnen, de ruimte om te bewegen en de verbinding met de leefruimte. In onze showroom in Amersfoort vergelijkt u fronten, hout, natuursteen, Dekton en apparatuur in alle rust. Samen kiezen we een materiaalpalet dat karakter geeft zonder trendgevoelig te worden.\n\nTijdloos betekent ook praktisch. Goede bergruimte, heldere werkzones en duurzame details zorgen ervoor dat de keuken prettig blijft werken. Hieronder ziet u een selectie van gerealiseerde keukens waarin die rust, kwaliteit en aandacht voor de woning samenkomen."
   }
 }

@@ -465,6 +465,10 @@ p {
   text-decoration: none;
 }
 
+.landing-page-hero {
+  min-height: min(72svh, 720px);
+}
+
 .product-card img {
   width: 100%;
   aspect-ratio: 4 / 3;
@@ -1070,6 +1074,10 @@ body.is-lightbox-open {
 
   .hero {
     min-height: 76svh;
+  }
+
+  .landing-page-hero {
+    min-height: 64svh;
   }
 
   .mobile-action-bar {
